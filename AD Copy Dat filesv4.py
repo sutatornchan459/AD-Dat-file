@@ -11,6 +11,12 @@ def clean_and_create_folder(path_save):
         shutil.rmtree(path_save, ignore_errors=True)
     os.mkdir(path_save)
 
+# เครื่องที่ไม่ต้องประมวลผล — ใส่ชื่อเครื่องตามที่อยู่ในคอลัมน์ Machine ของตาราง ad_ip
+# AD05: เชื่อมต่อ path ไม่ได้ 22 ครั้งจาก 12 รอบที่รัน (7 เม.ย.–23 ก.ค. 2026) ตัดออกเมื่อ 2026-08-08
+# หมายเหตุ: เมื่อข้าม AD05 โฟลเดอร์ปลายทาง ...\QC\logad\AD05 จะไม่ถูกล้างอีกต่อไป
+#          ไฟล์เก่าที่ค้างอยู่จะคงอยู่ตลอด ต้องลบเองถ้าไม่ต้องการ
+EXCLUDE_MACHINES = {"AD05"}
+
 name_pc = socket.gethostname()
 factory = 'A' if name_pc == "2592P-ED363" else 'E'
 
@@ -20,6 +26,9 @@ with engine.connect() as con:
 
 for item in ad_ip.itertuples():
     mc = item.Machine
+    if mc in EXCLUDE_MACHINES:
+        print(mc, ": อยู่ใน EXCLUDE_MACHINES — ข้าม")
+        continue
     ip = rf"\\{item.IP}\{item.Version}\Dat"
     if not os.path.isdir(ip):
         ip = rf"\\{item.IP}\{item.Machine}\{item.Version}\Dat"
