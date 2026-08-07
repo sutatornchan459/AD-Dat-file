@@ -19,6 +19,8 @@ DB_BATCH_SIZE       = 100   # insert ทีละกี่แถว
 DB_RETRY            = 3     # จำนวนครั้ง retry เมื่อ DB error
 DAYS_BACK           = 180   # ย้อนหลังกี่วัน
 DAT_NAME_MAX_LEN    = 100   # จำกัดความยาว dat_name ป้องกัน Data too long
+CAS_FIELD_MAX_LEN   = 255   # จำกัดความยาว alarm/Status ป้องกัน MySQL 1406 Data too long
+                            # ตรวจค่าจริงด้วย: SHOW CREATE TABLE inadatabase.ad_log3;
 
 # ชื่อไฟล์ที่ต้องการประมวลผล
 TARGET_FILE_PATTERNS = ["_2G.log", "_2G.Log", "_2G.txt", "WorkStatus.log", "WorkStatus.Log", "WorkStatus.txt"]
@@ -72,6 +74,20 @@ def make_engine(db_name: str):
         echo=False,
     )
 
+def insert_rows_individually(batch: pd.DataFrame, engine, table: str) -> int:
+    """batch ล้มเหลว → insert ทีละแถว เพื่อไม่ให้แถวเสียแถวเดียวทำให้ทั้ง batch หายไป"""
+    ok = 0
+    for idx in range(len(batch)):
+        row = batch.iloc[[idx]]
+        try:
+            with engine.connect() as con:
+                row.to_sql(table, con, if_exists="append", index=False)
+            ok += 1
+        except Exception as e:
+            r = row.iloc[0]
+            log.error(f"ข้ามแถว id={r.get('id', '?')} machine={r.get('machine', '?')}: {e}")
+    return ok
+
 def insert_with_retry(df: pd.DataFrame, engine, table: str, batch_size: int = DB_BATCH_SIZE, retries: int = DB_RETRY):
     total = len(df)
     inserted = 0
@@ -86,7 +102,11 @@ def insert_with_retry(df: pd.DataFrame, engine, table: str, batch_size: int = DB
             except Exception as e:
                 log.warning(f"Insert batch {start}–{start+len(batch)} attempt {attempt}/{retries}: {e}")
                 if attempt == retries:
-                    log.error(f"ข้ามไป {len(batch)} แถว (batch {start}) เนื่องจาก error ซ้ำ")
+                    log.warning(f"batch {start} ล้มเหลว {retries} ครั้ง — เปลี่ยนเป็น insert ทีละแถว")
+                    ok = insert_rows_individually(batch, engine, table)
+                    inserted += ok
+                    if ok < len(batch):
+                        log.error(f"ข้ามไป {len(batch) - ok} แถว (batch {start}) เนื่องจาก error ซ้ำ")
                 else:
                     time.sleep(2 ** attempt)
     log.info(f"Insert สำเร็จ {inserted}/{total} แถว → {table}")
@@ -133,6 +153,27 @@ FIELD_MAP = {
 WAFER_KEYS = {"=WaferParameter=,", "=WaferParameter="}
 CAS_KEYS   = {"=CasSts=,", "=CasSts=", "=RecProps=", "=RecProps=,"}
 
+# บรรทัดหัวข้อ section เช่น "=CasSts=," หรือ "=WaferParameter="
+SECTION_HEADER_RE = re.compile(r"^=\w+=,?$")
+
+def section_rows(log_data: list, start: int) -> list:
+    """อ่านแถวของ section ตั้งแต่ start จนถึงหัวข้อ section ถัดไป — ไม่ใช่จนจบไฟล์
+    (การอ่านจนจบไฟล์คือต้นเหตุที่ทำให้ alarm/Status ยาวเกินคอลัมน์)"""
+    rows = []
+    for line2 in log_data[start:]:
+        if SECTION_HEADER_RE.match(line2.split(" ")[0].strip()):
+            break
+        rows.append([x.strip() for x in line2.split(",")])
+    return rows
+
+def capped(values, field: str) -> str:
+    """join แล้วจำกัดความยาว กัน MySQL 1406 — และ log ให้เห็นเมื่อถูกตัด ไม่ใช่หายเงียบ"""
+    joined = ", ".join(values)
+    if len(joined) > CAS_FIELD_MAX_LEN:
+        log.warning(f"ตัด {field} จาก {len(joined)} เหลือ {CAS_FIELD_MAX_LEN} ตัวอักษร")
+        return joined[:CAS_FIELD_MAX_LEN]
+    return joined
+
 def parse_log(log_data: list, path_date_str: str) -> dict:
     data = {}
     for row, line in enumerate(log_data):
@@ -143,28 +184,13 @@ def parse_log(log_data: list, path_date_str: str) -> dict:
         if name in FIELD_MAP:
             field = FIELD_MAP[name]
             val = log_data[row + 1].strip() if row + 1 < len(log_data) else ""
-            
-            if field in ("start_datetime", "finish_datetime"):
-                # Logic: เอาแค่วันที่จาก Path มาประกบกับ 'เวลา' จากในไฟล์
-                try:
-                    time_part = val.split(" ")[-1]
-                    # ถ้าสกัดวันที่จาก path ได้ ให้ใช้ path_date + time_part
-                    if path_date_str:
-                        dt_obj = dt.strptime(path_date_str, "%Y%m%d")
-                        tm_obj = pd.to_datetime(time_part, errors='coerce').time()
-                        if tm_obj:
-                            val = dt.combine(dt_obj.date(), tm_obj)
-                except: pass
-            
+
             if field == "dat_name":
                 val = val.split(".")[0][:DAT_NAME_MAX_LEN]
             data[field] = val
 
         elif name in WAFER_KEYS:
-            rows = []
-            for line2 in log_data[row + 2:]:
-                cols = [x.strip() for x in line2.split(",")]
-                rows.append(cols)
+            rows = section_rows(log_data, row + 2)
             if rows:
                 df = pd.DataFrame(rows)
                 if df.shape[1] > 3:
@@ -173,20 +199,40 @@ def parse_log(log_data: list, path_date_str: str) -> dict:
                     data["wafer_thickness"] = str(round(col_data.mean(skipna=True), 2))
 
         elif name in CAS_KEYS:
-            rows = []
-            for line2 in log_data[row + 1:]:
-                cols = [x.strip() for x in line2.split(",")]
-                rows.append(cols)
+            rows = section_rows(log_data, row + 1)
             if rows:
                 df = pd.DataFrame(rows)
                 if df.shape[1] >= 3:
                     df2 = df.iloc[:, 1:3].copy()
                     df2.columns = ["alarm", "Status"]
                     df_121 = df2[df2["alarm"] == "121"]; df_225 = df2[df2["alarm"] == "225"]
-                    data["alarm"] = ", ".join(df_121["alarm"].astype(str))
-                    data["Status"] = ", ".join(df_121["Status"].astype(str))
-                    data["alarm225"] = ", ".join(df_225["alarm"].astype(str))
-                    data["Status225"] = ", ".join(df_225["Status"].astype(str))
+                    data["alarm"] = capped(df_121["alarm"].astype(str), "alarm")
+                    data["Status"] = capped(df_121["Status"].astype(str), "Status")
+                    data["alarm225"] = capped(df_225["alarm"].astype(str), "alarm225")
+                    data["Status225"] = capped(df_225["Status"].astype(str), "Status225")
+
+    # ประกบวันที่จาก path เข้ากับเวลาในไฟล์ พร้อมเช็คการข้ามคืน
+    # (ต้องทำหลังอ่านครบทั้งสองค่า ไม่งั้นเทียบ start/finish ไม่ได้)
+    if path_date_str and "start_datetime" in data and "finish_datetime" in data:
+        try:
+            base_dt = dt.strptime(path_date_str, "%Y%m%d")
+
+            st_time = pd.to_datetime(data["start_datetime"].split(" ")[-1], errors="coerce").time()
+            ed_time = pd.to_datetime(data["finish_datetime"].split(" ")[-1], errors="coerce").time()
+
+            if st_time and ed_time:
+                start_full = dt.combine(base_dt.date(), st_time)
+                finish_full = dt.combine(base_dt.date(), ed_time)
+
+                # ถ้าเวลาจบน้อยกว่าเวลาเริ่ม แสดงว่างานข้ามไปอีกวัน
+                if finish_full < start_full:
+                    finish_full = finish_full + td(days=1)
+
+                data["start_datetime"] = start_full
+                data["finish_datetime"] = finish_full
+        except Exception as e:
+            log.warning(f"Datetime parse error: {e}")
+
     return data
 
 # ─────────────────────────────────────────────

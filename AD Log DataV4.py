@@ -19,6 +19,8 @@ DB_BATCH_SIZE       = 100   # insert ทีละกี่แถว
 DB_RETRY            = 3     # จำนวนครั้ง retry เมื่อ DB error
 DAYS_BACK           = 60   # ย้อนหลังกี่วัน
 DAT_NAME_MAX_LEN    = 100   # จำกัดความยาว dat_name ป้องกัน Data too long
+CAS_FIELD_MAX_LEN   = 255   # จำกัดความยาว alarm/Status ป้องกัน MySQL 1406 Data too long
+                            # ตรวจค่าจริงด้วย: SHOW CREATE TABLE inadatabase.ad_log3;
 
 # ชื่อไฟล์ที่ต้องการประมวลผล
 TARGET_FILE_PATTERNS = ["_2G.log", "_2G.Log", "_2G.txt", "WorkStatus.log", "WorkStatus.Log", "WorkStatus.txt",".log",".Log",".txt"]
@@ -72,6 +74,20 @@ def make_engine(db_name: str):
         echo=False,
     )
 
+def insert_rows_individually(batch: pd.DataFrame, engine, table: str) -> int:
+    """batch ล้มเหลว → insert ทีละแถว เพื่อไม่ให้แถวเสียแถวเดียวทำให้ทั้ง batch หายไป"""
+    ok = 0
+    for idx in range(len(batch)):
+        row = batch.iloc[[idx]]
+        try:
+            with engine.connect() as con:
+                row.to_sql(table, con, if_exists="append", index=False)
+            ok += 1
+        except Exception as e:
+            r = row.iloc[0]
+            log.error(f"ข้ามแถว id={r.get('id', '?')} machine={r.get('machine', '?')}: {e}")
+    return ok
+
 def insert_with_retry(df: pd.DataFrame, engine, table: str, batch_size: int = DB_BATCH_SIZE, retries: int = DB_RETRY):
     total = len(df)
     inserted = 0
@@ -86,7 +102,11 @@ def insert_with_retry(df: pd.DataFrame, engine, table: str, batch_size: int = DB
             except Exception as e:
                 log.warning(f"Insert batch {start}–{start+len(batch)} attempt {attempt}/{retries}: {e}")
                 if attempt == retries:
-                    log.error(f"ข้ามไป {len(batch)} แถว (batch {start}) เนื่องจาก error ซ้ำ")
+                    log.warning(f"batch {start} ล้มเหลว {retries} ครั้ง — เปลี่ยนเป็น insert ทีละแถว")
+                    ok = insert_rows_individually(batch, engine, table)
+                    inserted += ok
+                    if ok < len(batch):
+                        log.error(f"ข้ามไป {len(batch) - ok} แถว (batch {start}) เนื่องจาก error ซ้ำ")
                 else:
                     time.sleep(2 ** attempt)
     log.info(f"Insert สำเร็จ {inserted}/{total} แถว → {table}")
@@ -133,6 +153,27 @@ FIELD_MAP = {
 WAFER_KEYS = {"=WaferParameter=,", "=WaferParameter="}
 CAS_KEYS   = {"=CasSts=,", "=CasSts=", "=RecProps=", "=RecProps=,"}
 
+# บรรทัดหัวข้อ section เช่น "=CasSts=," หรือ "=WaferParameter="
+SECTION_HEADER_RE = re.compile(r"^=\w+=,?$")
+
+def section_rows(log_data: list, start: int) -> list:
+    """อ่านแถวของ section ตั้งแต่ start จนถึงหัวข้อ section ถัดไป — ไม่ใช่จนจบไฟล์
+    (การอ่านจนจบไฟล์คือต้นเหตุที่ทำให้ alarm/Status ยาวเกินคอลัมน์)"""
+    rows = []
+    for line2 in log_data[start:]:
+        if SECTION_HEADER_RE.match(line2.split(" ")[0].strip()):
+            break
+        rows.append([x.strip() for x in line2.split(",")])
+    return rows
+
+def capped(values, field: str) -> str:
+    """join แล้วจำกัดความยาว กัน MySQL 1406 — และ log ให้เห็นเมื่อถูกตัด ไม่ใช่หายเงียบ"""
+    joined = ", ".join(values)
+    if len(joined) > CAS_FIELD_MAX_LEN:
+        log.warning(f"ตัด {field} จาก {len(joined)} เหลือ {CAS_FIELD_MAX_LEN} ตัวอักษร")
+        return joined[:CAS_FIELD_MAX_LEN]
+    return joined
+
 def parse_log(log_data: list, path_date_str: str) -> dict:
     data = {}
     
@@ -150,12 +191,25 @@ def parse_log(log_data: list, path_date_str: str) -> dict:
             data[field] = val
 
         elif name in WAFER_KEYS:
-            rows = [l.split(",") for l in log_data[row+2:] if "," in l]
+            rows = section_rows(log_data, row + 2)
             if rows:
                 df = pd.DataFrame(rows)
                 if df.shape[1] > 3:
                     nums = pd.to_numeric(df.iloc[:, 3], errors="coerce").replace([999, 9999, 99999], np.nan)
                     data["wafer_thickness"] = str(round(nums.mean(), 2))
+
+        elif name in CAS_KEYS:
+            rows = section_rows(log_data, row + 1)
+            if rows:
+                df = pd.DataFrame(rows)
+                if df.shape[1] >= 3:
+                    df2 = df.iloc[:, 1:3].copy()
+                    df2.columns = ["alarm", "Status"]
+                    df_121 = df2[df2["alarm"] == "121"]; df_225 = df2[df2["alarm"] == "225"]
+                    data["alarm"] = capped(df_121["alarm"].astype(str), "alarm")
+                    data["Status"] = capped(df_121["Status"].astype(str), "Status")
+                    data["alarm225"] = capped(df_225["alarm"].astype(str), "alarm225")
+                    data["Status225"] = capped(df_225["Status"].astype(str), "Status225")
 
     # --- ส่วนที่เพิ่ม/แก้ไข: จัดการ Start และ Finish Datetime ---
     if path_date_str and "start_datetime" in data and "finish_datetime" in data:
@@ -235,10 +289,19 @@ def main():
                         
     if all_rows:
         all_data = pd.DataFrame(all_rows)
+
         # ตรวจสอบ Type ข้อมูลก่อน Insert
-        all_data["start_datetime"] = pd.to_datetime(all_data["start_datetime"], errors="coerce")
-        all_data["finish_datetime"] = pd.to_datetime(all_data["finish_datetime"], errors="coerce")
-        
+        STR_COLS = {"machine", "id", "product", "dat_name", "pp_patern", "be_pattern", "bw_pattern",
+                    "alarm", "Status", "alarm225", "Status225", "LotName", "wafer_thickness"}
+
+        for col in all_data.columns:
+            if col in ("start_datetime", "finish_datetime"):
+                all_data[col] = pd.to_datetime(all_data[col], errors="coerce")
+            elif col not in STR_COLS:
+                all_data[col] = pd.to_numeric(all_data[col], errors="coerce")
+
+        all_data.sort_values("start_datetime", inplace=True, ignore_index=True)
+
         dst_engine = make_engine("inadatabase")
         insert_with_retry(all_data, dst_engine, "ad_log3")
         log.info(f"Done. Inserted {len(all_data)} rows.")
