@@ -27,10 +27,11 @@ for item in ad_ip.itertuples():
     if os.path.isdir(ip):
         check_file = glob.glob(rf"{ip}\*.dat")
 
+        path_save = os.path.join(r"\\172.18.106.224\mc_csv6\QC\logad", mc)
+        clean_and_create_folder(path_save)
+
         if check_file:
             print(mc, ': total', len(check_file), 'files')
-            path_save = os.path.join(r"\\172.18.106.224\mc_csv6\QC\logad", mc)
-            clean_and_create_folder(path_save)
 
             for file in check_file:
                 name = os.path.basename(file)
