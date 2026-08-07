@@ -1,0 +1,697 @@
+2026-04-07 09:05:09,211 [INFO] เริ่มทำงาน | PC: 2592P-ED363 | Factory: A
+2026-04-07 09:12:04,600 [INFO] [AD06] path: \\172.18.223.143\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:12:05,038 [INFO] [AD06] รวม 0 แถวสะสม
+2026-04-07 09:12:05,054 [INFO] [AD07] path: \\172.18.223.147\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:12:05,522 [INFO] [AD07] รวม 0 แถวสะสม
+2026-04-07 09:12:05,538 [INFO] [AD08] path: \\172.18.223.151\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:12:05,913 [INFO] [AD08] รวม 0 แถวสะสม
+2026-04-07 09:12:05,913 [INFO] [AD09] path: \\172.18.223.155\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:12:06,241 [INFO] [AD09] รวม 0 แถวสะสม
+2026-04-07 09:12:06,241 [INFO] [AD10] path: \\172.18.223.159\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:12:07,006 [INFO] [AD10] รวม 0 แถวสะสม
+2026-04-07 09:12:07,022 [INFO] [AD11] path: \\172.18.223.163\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:12:07,897 [INFO] [AD11] รวม 0 แถวสะสม
+2026-04-07 09:12:07,912 [INFO] [AD12] path: \\172.18.223.199\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:12:08,756 [INFO] [AD12] รวม 0 แถวสะสม
+2026-04-07 09:12:08,771 [INFO] [AD13] path: \\172.18.223.195\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:12:09,240 [INFO] [AD13] รวม 0 แถวสะสม
+2026-04-07 09:12:09,256 [INFO] [AD14] path: \\172.18.223.73\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:12:10,084 [INFO] [AD14] รวม 0 แถวสะสม
+2026-04-07 09:12:10,099 [INFO] [AD15] path: \\172.18.223.77\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:12:11,130 [INFO] [AD15] รวม 0 แถวสะสม
+2026-04-07 09:12:11,146 [INFO] [AD16] path: \\172.18.223.81\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:12:11,739 [INFO] [AD16] รวม 0 แถวสะสม
+2026-04-07 09:12:11,739 [INFO] [AD17] path: \\172.18.223.97\SS-320SG-2G\Auto
+2026-04-07 09:12:12,349 [INFO] [AD17] รวม 52 แถวสะสม
+2026-04-07 09:12:15,832 [INFO] [AD19] path: \\172.18.223.167\AD19\SS-5028N-C1-M1\Auto
+2026-04-07 09:12:18,238 [INFO] [AD19] รวม 52 แถวสะสม
+2026-04-07 09:12:18,238 [INFO] [AD20] path: \\172.18.223.171\SS-5028N-C1-M1\Auto
+2026-04-07 09:12:21,644 [INFO] [AD20] รวม 52 แถวสะสม
+2026-04-07 09:12:21,659 [INFO] [AD21] path: \\172.18.223.179\SS-5028N-C1-M1\Auto
+2026-04-07 09:12:26,283 [INFO] [AD21] รวม 52 แถวสะสม
+2026-04-07 09:12:26,361 [INFO] [AD22] path: \\172.18.223.175\SS-5028N-C1-M1\Auto
+2026-04-07 09:12:30,579 [INFO] [AD22] รวม 52 แถวสะสม
+2026-04-07 09:13:56,329 [WARNING] [AD05] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-04-07 09:13:56,329 [INFO] DataFrame พร้อม: 52 แถว × 18 คอลัมน์
+2026-04-07 09:13:56,375 [INFO] Insert สำเร็จ 52/52 แถว → ad_log3
+2026-04-07 09:13:56,375 [INFO] เสร็จสิ้น
+2026-04-07 09:15:15,831 [INFO] เริ่มทำงาน | PC: 2592P-ED363 | Factory: A
+2026-04-07 09:15:15,940 [INFO] [AD06] path: \\172.18.223.143\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:15:16,346 [INFO] [AD06] รวม 0 แถวสะสม
+2026-04-07 09:15:16,346 [INFO] [AD07] path: \\172.18.223.147\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:15:16,846 [INFO] [AD07] รวม 0 แถวสะสม
+2026-04-07 09:15:16,862 [INFO] [AD08] path: \\172.18.223.151\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:15:18,018 [INFO] [AD08] รวม 0 แถวสะสม
+2026-04-07 09:15:18,033 [INFO] [AD09] path: \\172.18.223.155\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:15:18,330 [INFO] [AD09] รวม 0 แถวสะสม
+2026-04-07 09:15:18,330 [INFO] [AD10] path: \\172.18.223.159\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:15:19,189 [INFO] [AD10] รวม 0 แถวสะสม
+2026-04-07 09:15:19,189 [INFO] [AD11] path: \\172.18.223.163\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:15:20,095 [INFO] [AD11] รวม 0 แถวสะสม
+2026-04-07 09:15:20,095 [INFO] [AD12] path: \\172.18.223.199\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:15:21,080 [INFO] [AD12] รวม 0 แถวสะสม
+2026-04-07 09:15:21,080 [INFO] [AD13] path: \\172.18.223.195\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:15:21,564 [INFO] [AD13] รวม 0 แถวสะสม
+2026-04-07 09:15:21,564 [INFO] [AD14] path: \\172.18.223.73\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:15:22,454 [INFO] [AD14] รวม 0 แถวสะสม
+2026-04-07 09:15:22,470 [INFO] [AD15] path: \\172.18.223.77\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:15:23,516 [INFO] [AD15] รวม 0 แถวสะสม
+2026-04-07 09:15:23,532 [INFO] [AD16] path: \\172.18.223.81\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:15:24,141 [INFO] [AD16] รวม 0 แถวสะสม
+2026-04-07 09:15:24,157 [INFO] [AD17] path: \\172.18.223.97\SS-320SG-2G\Auto
+2026-04-07 09:15:24,719 [INFO] [AD17] รวม 52 แถวสะสม
+2026-04-07 09:15:28,266 [INFO] [AD19] path: \\172.18.223.167\AD19\SS-5028N-C1-M1\Auto
+2026-04-07 09:15:30,640 [INFO] [AD19] รวม 52 แถวสะสม
+2026-04-07 09:15:30,640 [INFO] [AD20] path: \\172.18.223.171\SS-5028N-C1-M1\Auto
+2026-04-07 09:15:34,030 [INFO] [AD20] รวม 52 แถวสะสม
+2026-04-07 09:15:34,046 [INFO] [AD21] path: \\172.18.223.179\SS-5028N-C1-M1\Auto
+2026-04-07 09:15:38,670 [INFO] [AD21] รวม 52 แถวสะสม
+2026-04-07 09:15:38,717 [INFO] [AD22] path: \\172.18.223.175\SS-5028N-C1-M1\Auto
+2026-04-07 09:15:44,856 [INFO] [AD22] รวม 52 แถวสะสม
+2026-04-07 09:16:28,413 [WARNING] [AD05] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-04-07 09:16:28,413 [INFO] DataFrame พร้อม: 52 แถว × 18 คอลัมน์
+2026-04-07 09:16:28,444 [INFO] Insert สำเร็จ 52/52 แถว → ad_log3
+2026-04-07 09:16:28,444 [INFO] เสร็จสิ้น
+2026-04-07 09:42:02,775 [INFO] เริ่มทำงาน | PC: 2592P-ED363 | Factory: A
+2026-04-07 09:42:03,212 [INFO] [AD06] path: \\172.18.223.143\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:42:03,212 [INFO] [AD06] รวม 0 แถวสะสม
+2026-04-07 09:42:03,228 [INFO] [AD07] path: \\172.18.223.147\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:42:03,228 [INFO] [AD07] รวม 0 แถวสะสม
+2026-04-07 09:42:03,322 [INFO] [AD08] path: \\172.18.223.151\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:42:03,337 [INFO] [AD08] รวม 0 แถวสะสม
+2026-04-07 09:42:03,353 [INFO] [AD09] path: \\172.18.223.155\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:42:03,353 [INFO] [AD09] รวม 0 แถวสะสม
+2026-04-07 09:42:03,369 [INFO] [AD10] path: \\172.18.223.159\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:42:03,384 [INFO] [AD10] รวม 0 แถวสะสม
+2026-04-07 09:42:03,384 [INFO] [AD11] path: \\172.18.223.163\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:42:03,400 [INFO] [AD11] รวม 0 แถวสะสม
+2026-04-07 09:42:03,416 [INFO] [AD12] path: \\172.18.223.199\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:42:03,431 [INFO] [AD12] รวม 0 แถวสะสม
+2026-04-07 09:42:03,431 [INFO] [AD13] path: \\172.18.223.195\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:42:03,447 [INFO] [AD13] รวม 0 แถวสะสม
+2026-04-07 09:42:03,462 [INFO] [AD14] path: \\172.18.223.73\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:42:03,478 [INFO] [AD14] รวม 0 แถวสะสม
+2026-04-07 09:42:03,494 [INFO] [AD15] path: \\172.18.223.77\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:42:03,509 [INFO] [AD15] รวม 0 แถวสะสม
+2026-04-07 09:42:03,525 [INFO] [AD16] path: \\172.18.223.81\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:42:03,556 [INFO] [AD16] รวม 0 แถวสะสม
+2026-04-07 09:42:03,556 [INFO] [AD17] path: \\172.18.223.97\SS-320SG-2G\Auto
+2026-04-07 09:42:03,556 [INFO] [AD17] รวม 0 แถวสะสม
+2026-04-07 09:42:06,227 [INFO] [AD19] path: \\172.18.223.167\AD19\SS-5028N-C1-M1\Auto
+2026-04-07 09:42:06,243 [INFO] [AD19] รวม 0 แถวสะสม
+2026-04-07 09:42:06,243 [INFO] [AD20] path: \\172.18.223.171\SS-5028N-C1-M1\Auto
+2026-04-07 09:42:06,321 [INFO] [AD20] รวม 0 แถวสะสม
+2026-04-07 09:42:06,337 [INFO] [AD21] path: \\172.18.223.179\SS-5028N-C1-M1\Auto
+2026-04-07 09:42:06,337 [INFO] [AD21] รวม 0 แถวสะสม
+2026-04-07 09:42:06,368 [INFO] [AD22] path: \\172.18.223.175\SS-5028N-C1-M1\Auto
+2026-04-07 09:42:06,509 [INFO] [AD22] รวม 0 แถวสะสม
+2026-04-07 09:42:50,890 [INFO] เริ่มทำงาน | PC: 2592P-ED363 | Factory: A
+2026-04-07 09:42:51,015 [INFO] [AD06] path: \\172.18.223.143\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:42:51,015 [INFO] [AD06] รวม 0 แถวสะสม
+2026-04-07 09:42:51,015 [INFO] [AD07] path: \\172.18.223.147\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:42:51,031 [INFO] [AD07] รวม 0 แถวสะสม
+2026-04-07 09:42:51,031 [INFO] [AD08] path: \\172.18.223.151\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:42:51,031 [INFO] [AD08] รวม 0 แถวสะสม
+2026-04-07 09:42:51,031 [INFO] [AD09] path: \\172.18.223.155\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:42:51,047 [INFO] [AD09] รวม 0 แถวสะสม
+2026-04-07 09:42:51,047 [INFO] [AD10] path: \\172.18.223.159\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:42:51,062 [INFO] [AD10] รวม 0 แถวสะสม
+2026-04-07 09:42:51,062 [INFO] [AD11] path: \\172.18.223.163\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:42:51,078 [INFO] [AD11] รวม 0 แถวสะสม
+2026-04-07 09:42:51,093 [INFO] [AD12] path: \\172.18.223.199\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:42:51,093 [INFO] [AD12] รวม 0 แถวสะสม
+2026-04-07 09:42:51,093 [INFO] [AD13] path: \\172.18.223.195\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:42:51,109 [INFO] [AD13] รวม 0 แถวสะสม
+2026-04-07 09:42:51,125 [INFO] [AD14] path: \\172.18.223.73\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:42:51,125 [INFO] [AD14] รวม 0 แถวสะสม
+2026-04-07 09:42:51,140 [INFO] [AD15] path: \\172.18.223.77\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:42:51,156 [INFO] [AD15] รวม 0 แถวสะสม
+2026-04-07 09:42:51,156 [INFO] [AD16] path: \\172.18.223.81\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:42:51,187 [INFO] [AD16] รวม 0 แถวสะสม
+2026-04-07 09:42:51,187 [INFO] [AD17] path: \\172.18.223.97\SS-320SG-2G\Auto
+2026-04-07 09:42:51,187 [INFO] [AD17] รวม 0 แถวสะสม
+2026-04-07 09:42:51,203 [INFO] [AD19] path: \\172.18.223.167\AD19\SS-5028N-C1-M1\Auto
+2026-04-07 09:42:51,218 [INFO] [AD19] รวม 0 แถวสะสม
+2026-04-07 09:42:51,218 [INFO] [AD20] path: \\172.18.223.171\SS-5028N-C1-M1\Auto
+2026-04-07 09:42:51,218 [INFO] [AD20] รวม 0 แถวสะสม
+2026-04-07 09:42:51,234 [INFO] [AD21] path: \\172.18.223.179\SS-5028N-C1-M1\Auto
+2026-04-07 09:42:51,234 [INFO] [AD21] รวม 0 แถวสะสม
+2026-04-07 09:42:51,250 [INFO] [AD22] path: \\172.18.223.175\SS-5028N-C1-M1\Auto
+2026-04-07 09:42:51,359 [INFO] [AD22] รวม 0 แถวสะสม
+2026-04-07 09:51:02,171 [INFO] เริ่มทำงาน | PC: 2592P-ED363 | Factory: A
+2026-04-07 09:51:02,827 [INFO] [AD06] path: \\172.18.223.143\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:51:02,827 [INFO] [AD06] รวม 0 แถวสะสม
+2026-04-07 09:51:02,827 [INFO] [AD07] path: \\172.18.223.147\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:51:02,843 [INFO] [AD07] รวม 0 แถวสะสม
+2026-04-07 09:51:02,874 [INFO] [AD08] path: \\172.18.223.151\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:51:02,874 [INFO] [AD08] รวม 0 แถวสะสม
+2026-04-07 09:51:02,874 [INFO] [AD09] path: \\172.18.223.155\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:51:02,890 [INFO] [AD09] รวม 0 แถวสะสม
+2026-04-07 09:51:02,890 [INFO] [AD10] path: \\172.18.223.159\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:51:03,593 [INFO] [AD10] รวม 37 แถวสะสม
+2026-04-07 09:51:03,593 [INFO] [AD11] path: \\172.18.223.163\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:51:03,718 [INFO] [AD11] รวม 43 แถวสะสม
+2026-04-07 09:51:03,733 [INFO] [AD12] path: \\172.18.223.199\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:51:03,733 [INFO] [AD12] รวม 43 แถวสะสม
+2026-04-07 09:51:03,749 [INFO] [AD13] path: \\172.18.223.195\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:51:03,796 [INFO] [AD13] รวม 45 แถวสะสม
+2026-04-07 09:51:03,811 [INFO] [AD14] path: \\172.18.223.73\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:51:03,952 [INFO] [AD14] รวม 54 แถวสะสม
+2026-04-07 09:51:03,968 [INFO] [AD15] path: \\172.18.223.77\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:51:04,780 [INFO] [AD15] รวม 107 แถวสะสม
+2026-04-07 09:51:04,780 [INFO] [AD16] path: \\172.18.223.81\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:51:05,920 [INFO] [AD16] รวม 187 แถวสะสม
+2026-04-07 09:51:05,920 [INFO] [AD17] path: \\172.18.223.97\SS-320SG-2G\Auto
+2026-04-07 09:51:05,920 [INFO] [AD17] รวม 187 แถวสะสม
+2026-04-07 09:51:08,576 [INFO] [AD19] path: \\172.18.223.167\AD19\SS-5028N-C1-M1\Auto
+2026-04-07 09:51:08,591 [INFO] [AD19] รวม 187 แถวสะสม
+2026-04-07 09:51:08,591 [INFO] [AD20] path: \\172.18.223.171\SS-5028N-C1-M1\Auto
+2026-04-07 09:51:09,279 [INFO] [AD20] รวม 274 แถวสะสม
+2026-04-07 09:51:09,294 [INFO] [AD21] path: \\172.18.223.179\SS-5028N-C1-M1\Auto
+2026-04-07 09:51:09,310 [INFO] [AD21] รวม 274 แถวสะสม
+2026-04-07 09:51:09,420 [INFO] [AD22] path: \\172.18.223.175\SS-5028N-C1-M1\Auto
+2026-04-07 09:51:11,247 [INFO] [AD22] รวม 357 แถวสะสม
+2026-04-07 09:51:53,636 [INFO] เริ่มทำงาน | PC: 2592P-ED363 | Factory: A
+2026-04-07 09:51:53,746 [INFO] [AD06] path: \\172.18.223.143\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:52:04,259 [INFO] [AD06] รวม 702 แถวสะสม
+2026-04-07 09:52:04,259 [INFO] [AD07] path: \\172.18.223.147\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:52:14,491 [INFO] [AD07] รวม 1386 แถวสะสม
+2026-04-07 09:52:14,491 [INFO] [AD08] path: \\172.18.223.151\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:52:14,725 [INFO] [AD08] รวม 1386 แถวสะสม
+2026-04-07 09:52:14,725 [INFO] [AD09] path: \\172.18.223.155\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:52:15,928 [INFO] [AD09] รวม 1430 แถวสะสม
+2026-04-07 09:52:15,944 [INFO] [AD10] path: \\172.18.223.159\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:52:46,655 [INFO] [AD10] รวม 3036 แถวสะสม
+2026-04-07 09:52:46,655 [INFO] [AD11] path: \\172.18.223.163\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:53:10,884 [INFO] [AD11] รวม 4227 แถวสะสม
+2026-04-07 09:53:10,900 [INFO] [AD12] path: \\172.18.223.199\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:53:47,126 [INFO] [AD12] รวม 5963 แถวสะสม
+2026-04-07 09:53:47,126 [INFO] [AD13] path: \\172.18.223.195\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:53:59,060 [INFO] [AD13] รวม 6543 แถวสะสม
+2026-04-07 09:53:59,076 [INFO] [AD14] path: \\172.18.223.73\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:54:26,507 [INFO] [AD14] รวม 8298 แถวสะสม
+2026-04-07 09:54:26,523 [INFO] [AD15] path: \\172.18.223.77\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:55:21,998 [INFO] [AD15] รวม 11879 แถวสะสม
+2026-04-07 09:55:21,998 [INFO] [AD16] path: \\172.18.223.81\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-07 09:55:45,820 [INFO] [AD16] รวม 13485 แถวสะสม
+2026-04-07 09:55:45,820 [INFO] [AD17] path: \\172.18.223.97\SS-320SG-2G\Auto
+2026-04-07 09:55:46,445 [INFO] [AD17] รวม 13537 แถวสะสม
+2026-04-07 09:55:49,992 [INFO] [AD19] path: \\172.18.223.167\AD19\SS-5028N-C1-M1\Auto
+2026-04-07 09:56:33,935 [INFO] [AD19] รวม 18524 แถวสะสม
+2026-04-07 09:56:33,951 [INFO] [AD20] path: \\172.18.223.171\SS-5028N-C1-M1\Auto
+2026-04-07 09:56:59,367 [INFO] [AD20] รวม 21854 แถวสะสม
+2026-04-07 09:56:59,383 [INFO] [AD21] path: \\172.18.223.179\SS-5028N-C1-M1\Auto
+2026-04-07 09:57:35,314 [INFO] [AD21] รวม 26463 แถวสะสม
+2026-04-07 09:57:35,470 [INFO] [AD22] path: \\172.18.223.175\SS-5028N-C1-M1\Auto
+2026-04-07 09:59:14,307 [INFO] [AD22] รวม 31175 แถวสะสม
+2026-04-07 09:59:57,972 [WARNING] [AD05] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-04-07 09:59:58,784 [INFO] DataFrame พร้อม: 31175 แถว × 21 คอลัมน์
+2026-04-07 10:00:00,472 [WARNING] Insert batch 9400–9500 attempt 1/3: (pymysql.err.DataError) (1406, "Data too long for column 'Status' at row 95")
+[SQL: INSERT INTO ad_log3 (product, `LotName`, dat_name, start_datetime, finish_datetime, laser_power, transmittance, max_power, work_power, laser_position, pp_patern, be_pattern, bw_pattern, total_time, alarm, `Status`, alarm225, `Status225`, wafer_thickness, id, machine) VALUES (%(product)s, %(LotName)s, %(dat_name)s, %(start_datetime)s, %(finish_datetime)s, %(laser_power)s, %(transmittance)s, %(max_power)s, %(work_power)s, %(laser_position)s, %(pp_patern)s, %(be_pattern)s, %(bw_pattern)s, %(total_time)s, %(alarm)s, %(Status)s, %(alarm225)s, %(Status225)s, %(wafer_thickness)s, %(id)s, %(machine)s)]
+[parameters: [{'product': 'KV2', 'LotName': '------', 'dat_name': 'KV2_410mW_V5', 'start_datetime': datetime.datetime(2025, 11, 28, 7, 21, 26), 'finish_datetime': datetime.datetime(2025, 11, 28, 8, 1, 20), 'laser_power': 3.179, 'transmittance': 44.1, 'max_power': 1.393, 'work_power': 0.411, 'laser_position': 52, 'pp_patern': None, 'be_pattern': None, 'bw_pattern': None, 'total_time': 2362.4, 'alarm': '', 'Status': '', 'alarm225': '', 'Status225': '', 'wafer_thickness': None, 'id': '20251128_072126', 'machine': 'AD22'}, {'product': 'KV2', 'LotName': '------', 'dat_name': 'KV2_420mW_V4', 'start_datetime': datetime.datetime(2025, 11, 28, 7, 21, 48), 'finish_datetime': datetime.datetime(2025, 11, 28, 8, 7, 19), 'laser_power': 3.237, 'transmittance': 46.2, 'max_power': 1.497, 'work_power': 0.417, 'laser_position': 50, 'pp_patern': None, 'be_pattern': None, 'bw_pattern': None, 'total_time': 2699.4, 'alarm': '', 'Status': '', 'alarm225': '', 'Status225': '', 'wafer_thickness': None, 'id': '20251128_072148', 'machine': 'AD21'}, {'product': 'KV2', 'LotName': '------', 'dat_name': 'KV2_410mW_V5', 'start_datetime': datetime.datetime(2025, 11, 28, 7, 21, 53), 'finish_datetime': datetime.datetime(2025, 11, 28, 8, 6, 14), 'laser_power': 3.217, 'transmittance': 42.8, 'max_power': 1.373, 'work_power': 0.408, 'laser_position': 49, 'pp_patern': None, 'be_pattern': None, 'bw_pattern': None, 'total_time': 2632.0, 'alarm': '', 'Status': '', 'alarm225': '', 'Status225': '', 'wafer_thickness': None, 'id': '20251128_072153', 'machine': 'AD19'}, {'product': 'KV2', 'LotName': '', 'dat_name': 'KV2_380mW_V4', 'start_datetime': datetime.datetime(2025, 11, 28, 8, 9, 15), 'finish_datetime': datetime.datetime(2025, 11, 28, 8, 19, 13), 'laser_power': 2.441, 'transmittance': 46.5, 'max_power': 1.135, 'work_power': 0.377, 'laser_position': 48, 'pp_patern': '0', 'be_pattern': '999045', 'bw_pattern': '0', 'total_time': 598.0, 'alarm': '', 'Status': '', 'alarm225': '', 'Status225': '', 'wafer_thickness': '227.75', 'id': 'AutoLog_KV2  20251128 080915', 'machine': 'AD07'}, {'product': 'KV2', 'LotName': '------', 'dat_name': 'KV2_420mW_V4', 'start_datetime': datetime.datetime(2025, 11, 28, 8, 17, 2), 'finish_datetime': datetime.datetime(2025, 11, 28, 8, 34, 15), 'laser_power': 3.23, 'transmittance': 46.3, 'max_power': 1.5, 'work_power': 0.412, 'laser_position': 50, 'pp_patern': None, 'be_pattern': None, 'bw_pattern': None, 'total_time': 1002.7, 'alarm': '', 'Status': '', 'alarm225': '', 'Status225': '', 'wafer_thickness': None, 'id': '20251128_081702', 'machine': 'AD21'}, {'product': 'KV2', 'LotName': '------', 'dat_name': 'KV2_410mW_V5', 'start_datetime': datetime.datetime(2025, 11, 28, 8, 25, 38), 'finish_datetime': datetime.datetime(2025, 11, 28, 8, 51, 46), 'laser_power': 3.212, 'transmittance': 42.8, 'max_power': 1.376, 'work_power': 0.411, 'laser_position': 49, 'pp_patern': None, 'be_pattern': None, 'bw_pattern': None, 'total_time': 1538.3, 'alarm': '', 'Status': '', 'alarm225': '', 'Status225': '', 'wafer_thickness': None, 'id': '20251128_082538', 'machine': 'AD19'}, {'product': 'MW', 'LotName': 'DBFORFWC', 'dat_name': 'MW_310mW_V3', 'start_datetime': datetime.datetime(2025, 11, 28, 8, 31, 28), 'finish_datetime': datetime.datetime(2025, 11, 28, 8, 34, 21), 'laser_power': 3.056, 'transmittance': 43.0, 'max_power': 1.314, 'work_power': 0.406, 'laser_position': 46, 'pp_patern': '0', 'be_pattern': '999035', 'bw_pattern': '0', 'total_time': 172.0, 'alarm': '', 'Status': '', 'alarm225': '', 'Status225': '', 'wafer_thickness': '205.28', 'id': 'AutoLog_MW DBFORFWC 20251128 083128', 'machine': 'AD10'}, {'product': 'CHS', 'LotName': 'Z47G25C25', 'dat_name': 'CHS_180mW_V1', 'start_datetime': datetime.datetime(2025, 11, 28, 8, 36, 59), 'finish_datetime': datetime.datetime(2025, 11, 28, 9, 58, 37), 'laser_power': 3.249, 'transmittance': 50.5, 'max_power': 1.64, 'work_power': 0.179, 'laser_position': 48, 'pp_patern': '0', 'be_pattern': '999015', 'bw_pattern': '0', 'total_time': 4898.0, 'alarm': '', 'Status': '', 'alarm225': '', 'Status225': '', 'wafer_thickness': '144.57', 'id': 'AutoLog_CHS Z47G25C25 20251128 083659', 'machine': 'AD12'}  ... displaying 10 of 100 total bound parameter sets ...  {'product': 'KV2', 'LotName': '------', 'dat_name': 'KV2_420mW_V4', 'start_datetime': datetime.datetime(2025, 11, 28, 19, 21, 27), 'finish_datetime': datetime.datetime(2025, 11, 28, 20, 6, 44), 'laser_power': 3.258, 'transmittance': 46.3, 'max_power': 1.5, 'work_power': 0.414, 'laser_position': 50, 'pp_patern': None, 'be_pattern': None, 'bw_pattern': None, 'total_time': 2685.8, 'alarm': '', 'Status': '', 'alarm225': '', 'Status225': '', 'wafer_thickness': None, 'id': '20251128_192127', 'machine': 'AD21'}, {'product': 'KV2', 'LotName': '------', 'dat_name': 'KV2_410mW_V5', 'start_datetime': datetime.datetime(2025, 11, 28, 19, 22, 3), 'finish_datetime': datetime.datetime(2025, 11, 28, 20, 8, 13), 'laser_power': 3.43, 'transmittance': 46.1, 'max_power': 1.583, 'work_power': 0.403, 'laser_position': 51, 'pp_patern': None, 'be_pattern': None, 'bw_pattern': None, 'total_time': 2738.9, 'alarm': '', 'Status': '', 'alarm225': '', 'Status225': '', 'wafer_thickness': None, 'id': '20251128_192203', 'machine': 'AD20'}]]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2026-04-07 10:00:02,526 [WARNING] Insert batch 9400–9500 attempt 2/3: (pymysql.err.DataError) (1406, "Data too long for column 'Status' at row 95")
+[SQL: INSERT INTO ad_log3 (product, `LotName`, dat_name, start_datetime, finish_datetime, laser_power, transmittance, max_power, work_power, laser_position, pp_patern, be_pattern, bw_pattern, total_time, alarm, `Status`, alarm225, `Status225`, wafer_thickness, id, machine) VALUES (%(product)s, %(LotName)s, %(dat_name)s, %(start_datetime)s, %(finish_datetime)s, %(laser_power)s, %(transmittance)s, %(max_power)s, %(work_power)s, %(laser_position)s, %(pp_patern)s, %(be_pattern)s, %(bw_pattern)s, %(total_time)s, %(alarm)s, %(Status)s, %(alarm225)s, %(Status225)s, %(wafer_thickness)s, %(id)s, %(machine)s)]
+[parameters: [{'product': 'KV2', 'LotName': '------', 'dat_name': 'KV2_410mW_V5', 'start_datetime': datetime.datetime(2025, 11, 28, 7, 21, 26), 'finish_datetime': datetime.datetime(2025, 11, 28, 8, 1, 20), 'laser_power': 3.179, 'transmittance': 44.1, 'max_power': 1.393, 'work_power': 0.411, 'laser_position': 52, 'pp_patern': None, 'be_pattern': None, 'bw_pattern': None, 'total_time': 2362.4, 'alarm': '', 'Status': '', 'alarm225': '', 'Status225': '', 'wafer_thickness': None, 'id': '20251128_072126', 'machine': 'AD22'}, {'product': 'KV2', 'LotName': '------', 'dat_name': 'KV2_420mW_V4', 'start_datetime': datetime.datetime(2025, 11, 28, 7, 21, 48), 'finish_datetime': datetime.datetime(2025, 11, 28, 8, 7, 19), 'laser_power': 3.237, 'transmittance': 46.2, 'max_power': 1.497, 'work_power': 0.417, 'laser_position': 50, 'pp_patern': None, 'be_pattern': None, 'bw_pattern': None, 'total_time': 2699.4, 'alarm': '', 'Status': '', 'alarm225': '', 'Status225': '', 'wafer_thickness': None, 'id': '20251128_072148', 'machine': 'AD21'}, {'product': 'KV2', 'LotName': '------', 'dat_name': 'KV2_410mW_V5', 'start_datetime': datetime.datetime(2025, 11, 28, 7, 21, 53), 'finish_datetime': datetime.datetime(2025, 11, 28, 8, 6, 14), 'laser_power': 3.217, 'transmittance': 42.8, 'max_power': 1.373, 'work_power': 0.408, 'laser_position': 49, 'pp_patern': None, 'be_pattern': None, 'bw_pattern': None, 'total_time': 2632.0, 'alarm': '', 'Status': '', 'alarm225': '', 'Status225': '', 'wafer_thickness': None, 'id': '20251128_072153', 'machine': 'AD19'}, {'product': 'KV2', 'LotName': '', 'dat_name': 'KV2_380mW_V4', 'start_datetime': datetime.datetime(2025, 11, 28, 8, 9, 15), 'finish_datetime': datetime.datetime(2025, 11, 28, 8, 19, 13), 'laser_power': 2.441, 'transmittance': 46.5, 'max_power': 1.135, 'work_power': 0.377, 'laser_position': 48, 'pp_patern': '0', 'be_pattern': '999045', 'bw_pattern': '0', 'total_time': 598.0, 'alarm': '', 'Status': '', 'alarm225': '', 'Status225': '', 'wafer_thickness': '227.75', 'id': 'AutoLog_KV2  20251128 080915', 'machine': 'AD07'}, {'product': 'KV2', 'LotName': '------', 'dat_name': 'KV2_420mW_V4', 'start_datetime': datetime.datetime(2025, 11, 28, 8, 17, 2), 'finish_datetime': datetime.datetime(2025, 11, 28, 8, 34, 15), 'laser_power': 3.23, 'transmittance': 46.3, 'max_power': 1.5, 'work_power': 0.412, 'laser_position': 50, 'pp_patern': None, 'be_pattern': None, 'bw_pattern': None, 'total_time': 1002.7, 'alarm': '', 'Status': '', 'alarm225': '', 'Status225': '', 'wafer_thickness': None, 'id': '20251128_081702', 'machine': 'AD21'}, {'product': 'KV2', 'LotName': '------', 'dat_name': 'KV2_410mW_V5', 'start_datetime': datetime.datetime(2025, 11, 28, 8, 25, 38), 'finish_datetime': datetime.datetime(2025, 11, 28, 8, 51, 46), 'laser_power': 3.212, 'transmittance': 42.8, 'max_power': 1.376, 'work_power': 0.411, 'laser_position': 49, 'pp_patern': None, 'be_pattern': None, 'bw_pattern': None, 'total_time': 1538.3, 'alarm': '', 'Status': '', 'alarm225': '', 'Status225': '', 'wafer_thickness': None, 'id': '20251128_082538', 'machine': 'AD19'}, {'product': 'MW', 'LotName': 'DBFORFWC', 'dat_name': 'MW_310mW_V3', 'start_datetime': datetime.datetime(2025, 11, 28, 8, 31, 28), 'finish_datetime': datetime.datetime(2025, 11, 28, 8, 34, 21), 'laser_power': 3.056, 'transmittance': 43.0, 'max_power': 1.314, 'work_power': 0.406, 'laser_position': 46, 'pp_patern': '0', 'be_pattern': '999035', 'bw_pattern': '0', 'total_time': 172.0, 'alarm': '', 'Status': '', 'alarm225': '', 'Status225': '', 'wafer_thickness': '205.28', 'id': 'AutoLog_MW DBFORFWC 20251128 083128', 'machine': 'AD10'}, {'product': 'CHS', 'LotName': 'Z47G25C25', 'dat_name': 'CHS_180mW_V1', 'start_datetime': datetime.datetime(2025, 11, 28, 8, 36, 59), 'finish_datetime': datetime.datetime(2025, 11, 28, 9, 58, 37), 'laser_power': 3.249, 'transmittance': 50.5, 'max_power': 1.64, 'work_power': 0.179, 'laser_position': 48, 'pp_patern': '0', 'be_pattern': '999015', 'bw_pattern': '0', 'total_time': 4898.0, 'alarm': '', 'Status': '', 'alarm225': '', 'Status225': '', 'wafer_thickness': '144.57', 'id': 'AutoLog_CHS Z47G25C25 20251128 083659', 'machine': 'AD12'}  ... displaying 10 of 100 total bound parameter sets ...  {'product': 'KV2', 'LotName': '------', 'dat_name': 'KV2_420mW_V4', 'start_datetime': datetime.datetime(2025, 11, 28, 19, 21, 27), 'finish_datetime': datetime.datetime(2025, 11, 28, 20, 6, 44), 'laser_power': 3.258, 'transmittance': 46.3, 'max_power': 1.5, 'work_power': 0.414, 'laser_position': 50, 'pp_patern': None, 'be_pattern': None, 'bw_pattern': None, 'total_time': 2685.8, 'alarm': '', 'Status': '', 'alarm225': '', 'Status225': '', 'wafer_thickness': None, 'id': '20251128_192127', 'machine': 'AD21'}, {'product': 'KV2', 'LotName': '------', 'dat_name': 'KV2_410mW_V5', 'start_datetime': datetime.datetime(2025, 11, 28, 19, 22, 3), 'finish_datetime': datetime.datetime(2025, 11, 28, 20, 8, 13), 'laser_power': 3.43, 'transmittance': 46.1, 'max_power': 1.583, 'work_power': 0.403, 'laser_position': 51, 'pp_patern': None, 'be_pattern': None, 'bw_pattern': None, 'total_time': 2738.9, 'alarm': '', 'Status': '', 'alarm225': '', 'Status225': '', 'wafer_thickness': None, 'id': '20251128_192203', 'machine': 'AD20'}]]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2026-04-07 10:00:06,545 [WARNING] Insert batch 9400–9500 attempt 3/3: (pymysql.err.DataError) (1406, "Data too long for column 'Status' at row 95")
+[SQL: INSERT INTO ad_log3 (product, `LotName`, dat_name, start_datetime, finish_datetime, laser_power, transmittance, max_power, work_power, laser_position, pp_patern, be_pattern, bw_pattern, total_time, alarm, `Status`, alarm225, `Status225`, wafer_thickness, id, machine) VALUES (%(product)s, %(LotName)s, %(dat_name)s, %(start_datetime)s, %(finish_datetime)s, %(laser_power)s, %(transmittance)s, %(max_power)s, %(work_power)s, %(laser_position)s, %(pp_patern)s, %(be_pattern)s, %(bw_pattern)s, %(total_time)s, %(alarm)s, %(Status)s, %(alarm225)s, %(Status225)s, %(wafer_thickness)s, %(id)s, %(machine)s)]
+[parameters: [{'product': 'KV2', 'LotName': '------', 'dat_name': 'KV2_410mW_V5', 'start_datetime': datetime.datetime(2025, 11, 28, 7, 21, 26), 'finish_datetime': datetime.datetime(2025, 11, 28, 8, 1, 20), 'laser_power': 3.179, 'transmittance': 44.1, 'max_power': 1.393, 'work_power': 0.411, 'laser_position': 52, 'pp_patern': None, 'be_pattern': None, 'bw_pattern': None, 'total_time': 2362.4, 'alarm': '', 'Status': '', 'alarm225': '', 'Status225': '', 'wafer_thickness': None, 'id': '20251128_072126', 'machine': 'AD22'}, {'product': 'KV2', 'LotName': '------', 'dat_name': 'KV2_420mW_V4', 'start_datetime': datetime.datetime(2025, 11, 28, 7, 21, 48), 'finish_datetime': datetime.datetime(2025, 11, 28, 8, 7, 19), 'laser_power': 3.237, 'transmittance': 46.2, 'max_power': 1.497, 'work_power': 0.417, 'laser_position': 50, 'pp_patern': None, 'be_pattern': None, 'bw_pattern': None, 'total_time': 2699.4, 'alarm': '', 'Status': '', 'alarm225': '', 'Status225': '', 'wafer_thickness': None, 'id': '20251128_072148', 'machine': 'AD21'}, {'product': 'KV2', 'LotName': '------', 'dat_name': 'KV2_410mW_V5', 'start_datetime': datetime.datetime(2025, 11, 28, 7, 21, 53), 'finish_datetime': datetime.datetime(2025, 11, 28, 8, 6, 14), 'laser_power': 3.217, 'transmittance': 42.8, 'max_power': 1.373, 'work_power': 0.408, 'laser_position': 49, 'pp_patern': None, 'be_pattern': None, 'bw_pattern': None, 'total_time': 2632.0, 'alarm': '', 'Status': '', 'alarm225': '', 'Status225': '', 'wafer_thickness': None, 'id': '20251128_072153', 'machine': 'AD19'}, {'product': 'KV2', 'LotName': '', 'dat_name': 'KV2_380mW_V4', 'start_datetime': datetime.datetime(2025, 11, 28, 8, 9, 15), 'finish_datetime': datetime.datetime(2025, 11, 28, 8, 19, 13), 'laser_power': 2.441, 'transmittance': 46.5, 'max_power': 1.135, 'work_power': 0.377, 'laser_position': 48, 'pp_patern': '0', 'be_pattern': '999045', 'bw_pattern': '0', 'total_time': 598.0, 'alarm': '', 'Status': '', 'alarm225': '', 'Status225': '', 'wafer_thickness': '227.75', 'id': 'AutoLog_KV2  20251128 080915', 'machine': 'AD07'}, {'product': 'KV2', 'LotName': '------', 'dat_name': 'KV2_420mW_V4', 'start_datetime': datetime.datetime(2025, 11, 28, 8, 17, 2), 'finish_datetime': datetime.datetime(2025, 11, 28, 8, 34, 15), 'laser_power': 3.23, 'transmittance': 46.3, 'max_power': 1.5, 'work_power': 0.412, 'laser_position': 50, 'pp_patern': None, 'be_pattern': None, 'bw_pattern': None, 'total_time': 1002.7, 'alarm': '', 'Status': '', 'alarm225': '', 'Status225': '', 'wafer_thickness': None, 'id': '20251128_081702', 'machine': 'AD21'}, {'product': 'KV2', 'LotName': '------', 'dat_name': 'KV2_410mW_V5', 'start_datetime': datetime.datetime(2025, 11, 28, 8, 25, 38), 'finish_datetime': datetime.datetime(2025, 11, 28, 8, 51, 46), 'laser_power': 3.212, 'transmittance': 42.8, 'max_power': 1.376, 'work_power': 0.411, 'laser_position': 49, 'pp_patern': None, 'be_pattern': None, 'bw_pattern': None, 'total_time': 1538.3, 'alarm': '', 'Status': '', 'alarm225': '', 'Status225': '', 'wafer_thickness': None, 'id': '20251128_082538', 'machine': 'AD19'}, {'product': 'MW', 'LotName': 'DBFORFWC', 'dat_name': 'MW_310mW_V3', 'start_datetime': datetime.datetime(2025, 11, 28, 8, 31, 28), 'finish_datetime': datetime.datetime(2025, 11, 28, 8, 34, 21), 'laser_power': 3.056, 'transmittance': 43.0, 'max_power': 1.314, 'work_power': 0.406, 'laser_position': 46, 'pp_patern': '0', 'be_pattern': '999035', 'bw_pattern': '0', 'total_time': 172.0, 'alarm': '', 'Status': '', 'alarm225': '', 'Status225': '', 'wafer_thickness': '205.28', 'id': 'AutoLog_MW DBFORFWC 20251128 083128', 'machine': 'AD10'}, {'product': 'CHS', 'LotName': 'Z47G25C25', 'dat_name': 'CHS_180mW_V1', 'start_datetime': datetime.datetime(2025, 11, 28, 8, 36, 59), 'finish_datetime': datetime.datetime(2025, 11, 28, 9, 58, 37), 'laser_power': 3.249, 'transmittance': 50.5, 'max_power': 1.64, 'work_power': 0.179, 'laser_position': 48, 'pp_patern': '0', 'be_pattern': '999015', 'bw_pattern': '0', 'total_time': 4898.0, 'alarm': '', 'Status': '', 'alarm225': '', 'Status225': '', 'wafer_thickness': '144.57', 'id': 'AutoLog_CHS Z47G25C25 20251128 083659', 'machine': 'AD12'}  ... displaying 10 of 100 total bound parameter sets ...  {'product': 'KV2', 'LotName': '------', 'dat_name': 'KV2_420mW_V4', 'start_datetime': datetime.datetime(2025, 11, 28, 19, 21, 27), 'finish_datetime': datetime.datetime(2025, 11, 28, 20, 6, 44), 'laser_power': 3.258, 'transmittance': 46.3, 'max_power': 1.5, 'work_power': 0.414, 'laser_position': 50, 'pp_patern': None, 'be_pattern': None, 'bw_pattern': None, 'total_time': 2685.8, 'alarm': '', 'Status': '', 'alarm225': '', 'Status225': '', 'wafer_thickness': None, 'id': '20251128_192127', 'machine': 'AD21'}, {'product': 'KV2', 'LotName': '------', 'dat_name': 'KV2_410mW_V5', 'start_datetime': datetime.datetime(2025, 11, 28, 19, 22, 3), 'finish_datetime': datetime.datetime(2025, 11, 28, 20, 8, 13), 'laser_power': 3.43, 'transmittance': 46.1, 'max_power': 1.583, 'work_power': 0.403, 'laser_position': 51, 'pp_patern': None, 'be_pattern': None, 'bw_pattern': None, 'total_time': 2738.9, 'alarm': '', 'Status': '', 'alarm225': '', 'Status225': '', 'wafer_thickness': None, 'id': '20251128_192203', 'machine': 'AD20'}]]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2026-04-07 10:00:06,545 [ERROR] ข้ามไป 100 แถว (batch 9400) เนื่องจาก error ซ้ำ
+2026-04-07 10:00:10,278 [INFO] Insert สำเร็จ 31075/31175 แถว → ad_log3
+2026-04-07 10:00:10,278 [INFO] เสร็จสิ้น
+2026-04-29 15:32:26,846 [INFO] เริ่มทำงาน | PC: 2592P-ED363 | Factory: A
+2026-04-29 15:32:27,018 [INFO] [AD06] path: \\172.18.223.143\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-29 15:32:27,456 [INFO] [AD06] รวม 0 แถวสะสม
+2026-04-29 15:32:27,456 [INFO] [AD07] path: \\172.18.223.147\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-29 15:32:27,909 [INFO] [AD07] รวม 0 แถวสะสม
+2026-04-29 15:32:27,909 [INFO] [AD08] path: \\172.18.223.151\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-29 15:32:28,174 [INFO] [AD08] รวม 0 แถวสะสม
+2026-04-29 15:32:28,174 [INFO] [AD09] path: \\172.18.223.155\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-29 15:32:28,596 [INFO] [AD09] รวม 0 แถวสะสม
+2026-04-29 15:32:28,612 [INFO] [AD10] path: \\172.18.223.159\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-29 15:32:30,064 [INFO] [AD10] รวม 0 แถวสะสม
+2026-04-29 15:32:30,064 [INFO] [AD11] path: \\172.18.223.163\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-29 15:32:32,517 [INFO] [AD11] รวม 0 แถวสะสม
+2026-04-29 15:32:32,533 [INFO] [AD12] path: \\172.18.223.199\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-29 15:32:33,720 [INFO] [AD12] รวม 0 แถวสะสม
+2026-04-29 15:33:17,103 [WARNING] [AD13] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-04-29 15:33:17,118 [INFO] [AD14] path: \\172.18.223.73\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-29 15:33:18,196 [INFO] [AD14] รวม 0 แถวสะสม
+2026-04-29 15:33:18,212 [INFO] [AD15] path: \\172.18.223.77\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-29 15:33:19,555 [INFO] [AD15] รวม 0 แถวสะสม
+2026-04-29 15:33:19,649 [INFO] [AD16] path: \\172.18.223.81\SS-3028G-M03a_Dat\_Log\Auto
+2026-04-29 15:33:20,570 [INFO] [AD16] รวม 0 แถวสะสม
+2026-04-29 15:33:20,570 [INFO] [AD17] path: \\172.18.223.97\SS-320SG-2G\Auto
+2026-04-29 15:33:22,008 [INFO] [AD17] รวม 48 แถวสะสม
+2026-04-29 15:33:25,335 [INFO] [AD19] path: \\172.18.223.167\AD19\SS-5028N-C1-M1\Auto
+2026-04-29 15:33:27,397 [INFO] [AD19] รวม 48 แถวสะสม
+2026-04-29 15:33:27,397 [INFO] [AD20] path: \\172.18.223.171\SS-5028N-C1-M1\Auto
+2026-04-29 15:34:29,320 [INFO] [AD20] รวม 48 แถวสะสม
+2026-04-29 15:34:29,320 [INFO] [AD21] path: \\172.18.223.179\SS-5028N-C1-M1\Auto
+2026-04-29 15:34:55,736 [INFO] [AD21] รวม 48 แถวสะสม
+2026-04-29 15:34:55,736 [INFO] [AD22] path: \\172.18.223.175\SS-5028N-C1-M1\Auto
+2026-04-29 15:34:57,751 [INFO] [AD22] รวม 48 แถวสะสม
+2026-04-29 15:35:41,163 [WARNING] [AD05] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-04-29 15:35:41,350 [INFO] Insert สำเร็จ 48/48 แถว → ad_log3
+2026-04-29 15:35:41,350 [INFO] เสร็จสิ้น
+2026-05-07 14:04:59,982 [INFO] เริ่มทำงาน | PC: 2592P-ED363 | Factory: A
+2026-05-07 14:05:00,201 [INFO] [AD06] path: \\172.18.223.143\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-07 14:05:00,654 [INFO] [AD07] path: \\172.18.223.147\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-07 14:05:01,107 [INFO] [AD08] path: \\172.18.223.151\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-07 14:05:01,373 [INFO] [AD09] path: \\172.18.223.155\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-07 14:05:01,841 [INFO] [AD10] path: \\172.18.223.159\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-07 14:05:03,403 [INFO] [AD11] path: \\172.18.223.163\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-07 14:05:04,559 [WARNING] [AD12] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-05-07 14:05:27,665 [WARNING] [AD13] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-05-07 14:05:27,680 [INFO] [AD14] path: \\172.18.223.73\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-07 14:05:28,586 [INFO] [AD15] path: \\172.18.223.77\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-07 14:05:30,399 [INFO] [AD16] path: \\172.18.223.81\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-07 14:05:31,336 [INFO] [AD17] path: \\172.18.223.97\SS-320SG-2G\Auto
+2026-05-07 14:05:36,256 [INFO] [AD19] path: \\172.18.223.167\AD19\SS-5028N-C1-M1\Auto
+2026-05-07 14:05:38,209 [INFO] [AD20] path: \\172.18.223.171\SS-5028N-C1-M1\Auto
+2026-05-07 14:05:41,458 [INFO] [AD21] path: \\172.18.223.179\SS-5028N-C1-M1\Auto
+2026-05-07 14:05:45,457 [INFO] [AD22] path: \\172.18.223.175\SS-5028N-C1-M1\Auto
+2026-05-07 14:06:30,728 [WARNING] [AD05] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-05-07 14:06:30,822 [INFO] Insert สำเร็จ 48/48 แถว → ad_log3
+2026-05-07 14:06:30,822 [INFO] Done. Inserted 48 rows.
+2026-05-07 14:08:37,776 [INFO] เริ่มทำงาน | PC: 2592P-ED363 | Factory: A
+2026-05-07 14:08:37,870 [INFO] [AD06] path: \\172.18.223.143\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-07 14:08:38,323 [INFO] [AD07] path: \\172.18.223.147\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-07 14:08:38,745 [INFO] [AD08] path: \\172.18.223.151\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-07 14:08:38,995 [INFO] [AD09] path: \\172.18.223.155\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-07 14:08:39,370 [INFO] [AD10] path: \\172.18.223.159\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-07 14:08:40,166 [INFO] [AD11] path: \\172.18.223.163\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-07 14:08:41,322 [WARNING] [AD12] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-05-07 14:09:24,734 [WARNING] [AD13] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-05-07 14:09:24,750 [INFO] [AD14] path: \\172.18.223.73\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-07 14:09:25,609 [INFO] [AD15] path: \\172.18.223.77\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-07 14:09:26,812 [INFO] [AD16] path: \\172.18.223.81\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-07 14:09:27,608 [INFO] [AD17] path: \\172.18.223.97\SS-320SG-2G\Auto
+2026-05-07 14:09:31,420 [INFO] [AD19] path: \\172.18.223.167\AD19\SS-5028N-C1-M1\Auto
+2026-05-07 14:09:33,326 [INFO] [AD20] path: \\172.18.223.171\SS-5028N-C1-M1\Auto
+2026-05-07 14:09:36,637 [INFO] [AD21] path: \\172.18.223.179\SS-5028N-C1-M1\Auto
+2026-05-07 14:09:40,668 [INFO] [AD22] path: \\172.18.223.175\SS-5028N-C1-M1\Auto
+2026-05-07 14:10:25,970 [WARNING] [AD05] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-05-07 14:10:26,001 [INFO] Insert สำเร็จ 48/48 แถว → ad_log3
+2026-05-07 14:10:26,001 [INFO] Done. Inserted 48 rows.
+2026-05-07 14:11:41,798 [INFO] เริ่มทำงาน | PC: 2592P-ED363 | Factory: A
+2026-05-07 14:11:42,017 [INFO] [AD06] path: \\172.18.223.143\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-07 14:11:54,733 [INFO] [AD07] path: \\172.18.223.147\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-07 14:11:59,794 [INFO] [AD08] path: \\172.18.223.151\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-07 14:12:00,044 [INFO] [AD09] path: \\172.18.223.155\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-07 14:12:02,294 [INFO] [AD10] path: \\172.18.223.159\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-07 14:12:35,442 [INFO] [AD11] path: \\172.18.223.163\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-07 14:13:04,920 [WARNING] [AD12] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-05-07 14:13:48,316 [WARNING] [AD13] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-05-07 14:13:48,331 [INFO] [AD14] path: \\172.18.223.73\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-07 14:14:10,748 [INFO] [AD15] path: \\172.18.223.77\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-07 14:15:20,935 [INFO] [AD16] path: \\172.18.223.81\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-07 14:15:50,225 [INFO] [AD17] path: \\172.18.223.97\SS-320SG-2G\Auto
+2026-05-07 14:15:54,083 [INFO] [AD19] path: \\172.18.223.167\AD19\SS-5028N-C1-M1\Auto
+2026-05-07 14:16:47,243 [INFO] [AD20] path: \\172.18.223.171\SS-5028N-C1-M1\Auto
+2026-05-07 14:17:35,872 [INFO] [AD21] path: \\172.18.223.179\SS-5028N-C1-M1\Auto
+2026-05-07 14:19:01,571 [INFO] [AD22] path: \\172.18.223.175\SS-5028N-C1-M1\Auto
+2026-05-07 14:20:23,240 [WARNING] [AD05] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-05-07 14:20:27,442 [INFO] Insert สำเร็จ 25143/25143 แถว → ad_log3
+2026-05-07 14:20:27,442 [INFO] Done. Inserted 25143 rows.
+2026-05-08 10:53:46,122 [INFO] เริ่มทำงาน | PC: 2592P-ED363 | Factory: A
+2026-05-08 10:53:46,372 [INFO] [AD06] path: \\172.18.223.143\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-08 10:53:55,901 [INFO] [AD07] path: \\172.18.223.147\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-08 10:53:59,775 [INFO] [AD08] path: \\172.18.223.151\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-08 10:54:00,025 [INFO] [AD09] path: \\172.18.223.155\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-08 10:54:01,603 [INFO] [AD10] path: \\172.18.223.159\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-08 10:54:38,157 [INFO] [AD11] path: \\172.18.223.163\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-08 10:55:03,838 [WARNING] [AD12] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-05-08 10:56:29,413 [WARNING] [AD13] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-05-08 10:56:29,428 [INFO] [AD14] path: \\172.18.223.73\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-08 10:56:46,830 [INFO] [AD15] path: \\172.18.223.77\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-08 10:57:43,286 [INFO] [AD16] path: \\172.18.223.81\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-08 10:58:07,936 [INFO] [AD17] path: \\172.18.223.97\SS-320SG-2G\Auto
+2026-05-08 10:58:12,607 [INFO] [AD19] path: \\172.18.223.167\AD19\SS-5028N-C1-M1\Auto
+2026-05-08 10:58:43,271 [INFO] [AD20] path: \\172.18.223.171\SS-5028N-C1-M1\Auto
+2026-05-08 10:59:05,219 [INFO] [AD21] path: \\172.18.223.179\SS-5028N-C1-M1\Auto
+2026-05-08 10:59:32,807 [INFO] [AD22] path: \\172.18.223.175\SS-5028N-C1-M1\Auto
+2026-05-08 11:00:44,681 [WARNING] [AD05] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-05-08 11:00:48,742 [INFO] Insert สำเร็จ 25080/25080 แถว → ad_log3
+2026-05-08 11:00:48,758 [INFO] Done. Inserted 25080 rows.
+2026-05-08 11:59:43,289 [INFO] เริ่มทำงาน | PC: 2592P-ED363 | Factory: A
+2026-05-08 11:59:43,633 [INFO] [AD06] path: \\172.18.223.143\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-08 11:59:43,649 [INFO] [AD07] path: \\172.18.223.147\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-08 11:59:43,664 [INFO] [AD08] path: \\172.18.223.151\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-08 11:59:43,664 [INFO] [AD09] path: \\172.18.223.155\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-08 11:59:43,711 [INFO] [AD10] path: \\172.18.223.159\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-08 11:59:43,945 [INFO] [AD11] path: \\172.18.223.163\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-08 11:59:44,289 [WARNING] [AD12] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-05-08 12:01:18,495 [INFO] เริ่มทำงาน | PC: 2592P-ED363 | Factory: A
+2026-05-08 12:01:18,604 [INFO] [AD06] path: \\172.18.223.143\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-08 12:02:04,308 [INFO] เริ่มทำงาน | PC: 2592P-ED363 | Factory: A
+2026-05-08 12:02:04,433 [INFO] [AD06] path: \\172.18.223.143\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-08 12:02:13,837 [INFO] [AD07] path: \\172.18.223.147\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-08 12:02:17,633 [INFO] [AD08] path: \\172.18.223.151\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-08 12:02:17,868 [INFO] [AD09] path: \\172.18.223.155\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-08 12:02:19,398 [INFO] [AD10] path: \\172.18.223.159\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-08 12:02:48,751 [INFO] [AD11] path: \\172.18.223.163\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-08 12:03:13,870 [WARNING] [AD12] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-05-08 12:03:57,267 [WARNING] [AD13] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-05-08 12:03:57,282 [INFO] [AD14] path: \\172.18.223.73\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-08 12:04:15,012 [INFO] [AD15] path: \\172.18.223.77\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-08 12:05:04,547 [INFO] [AD16] path: \\172.18.223.81\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-08 12:05:29,388 [INFO] [AD17] path: \\172.18.223.97\SS-320SG-2G\Auto
+2026-05-08 12:05:32,137 [INFO] [AD19] path: \\172.18.223.167\AD19\SS-5028N-C1-M1\Auto
+2026-05-08 12:06:02,802 [INFO] [AD20] path: \\172.18.223.171\SS-5028N-C1-M1\Auto
+2026-05-08 12:07:45,997 [INFO] [AD21] path: \\172.18.223.179\SS-5028N-C1-M1\Auto
+2026-05-08 12:08:13,366 [INFO] [AD22] path: \\172.18.223.175\SS-5028N-C1-M1\Auto
+2026-05-08 12:09:26,506 [WARNING] [AD05] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-05-08 12:09:30,708 [INFO] Insert สำเร็จ 25084/25084 แถว → ad_log3
+2026-05-08 12:09:30,708 [INFO] Done. Inserted 25084 rows.
+2026-05-08 13:32:07,647 [INFO] เริ่มทำงาน | PC: 2592P-ED363 | Factory: A
+2026-05-08 13:32:07,959 [INFO] [AD06] path: \\172.18.223.143\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-08 13:32:17,316 [INFO] [AD07] path: \\172.18.223.147\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-08 13:32:21,112 [INFO] [AD08] path: \\172.18.223.151\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-08 13:32:21,362 [INFO] [AD09] path: \\172.18.223.155\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-08 13:32:22,893 [INFO] [AD10] path: \\172.18.223.159\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-08 13:32:50,606 [INFO] [AD11] path: \\172.18.223.163\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-08 13:33:15,601 [WARNING] [AD12] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-05-08 13:34:41,191 [WARNING] [AD13] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-05-08 13:34:41,207 [INFO] [AD14] path: \\172.18.223.73\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-08 13:34:58,250 [INFO] [AD15] path: \\172.18.223.77\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-08 13:35:58,221 [INFO] [AD16] path: \\172.18.223.81\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-08 13:36:22,637 [INFO] [AD17] path: \\172.18.223.97\SS-320SG-2G\Auto
+2026-05-08 13:36:26,527 [INFO] [AD19] path: \\172.18.223.167\AD19\SS-5028N-C1-M1\Auto
+2026-05-08 13:36:57,160 [INFO] [AD20] path: \\172.18.223.171\SS-5028N-C1-M1\Auto
+2026-05-08 13:37:19,266 [INFO] [AD21] path: \\172.18.223.179\SS-5028N-C1-M1\Auto
+2026-05-08 13:37:46,713 [INFO] [AD22] path: \\172.18.223.175\SS-5028N-C1-M1\Auto
+2026-05-08 13:39:41,030 [WARNING] [AD05] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-05-08 13:39:44,732 [INFO] Insert สำเร็จ 25089/25089 แถว → ad_log3
+2026-05-08 13:39:44,732 [INFO] Done. Inserted 25089 rows.
+2026-05-25 08:31:58,747 [INFO] เริ่มทำงาน | PC: 2592P-ED363 | Factory: A
+2026-05-25 08:31:58,966 [INFO] [AD06] path: \\172.18.223.143\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-25 08:31:58,981 [WARNING] [AD07] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-05-25 08:31:59,012 [INFO] [AD08] path: \\172.18.223.151\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-25 08:31:59,028 [WARNING] [AD09] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-05-25 08:31:59,106 [INFO] [AD10] path: \\172.18.223.159\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-25 08:31:59,356 [INFO] [AD11] path: \\172.18.223.163\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-25 08:31:59,809 [WARNING] [AD12] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-05-25 08:32:43,192 [WARNING] [AD13] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-05-25 08:32:43,207 [INFO] [AD14] path: \\172.18.223.73\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-25 08:32:43,223 [INFO] [AD15] path: \\172.18.223.77\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-25 08:32:43,972 [INFO] [AD16] path: \\172.18.223.81\SS-3028G-M03a_Dat\_Log\Auto
+2026-05-25 08:32:43,972 [INFO] [AD17] path: \\172.18.223.97\SS-300AG-2G\Auto
+2026-05-25 08:32:48,003 [INFO] [AD19] path: \\172.18.223.167\AD19\SS-5028N-C1-M1\Auto
+2026-05-25 08:32:48,003 [INFO] [AD20] path: \\172.18.223.171\SS-5028N-C1-M1\Auto
+2026-05-25 08:32:48,018 [INFO] [AD21] path: \\172.18.223.179\SS-5028N-C1-M1\Auto
+2026-05-25 08:32:48,034 [INFO] [AD22] path: \\172.18.223.175\SS-5028N-C1-M1\Auto
+2026-05-25 08:34:13,577 [WARNING] [AD05] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-05-25 08:34:13,702 [INFO] Insert สำเร็จ 154/154 แถว → ad_log3
+2026-05-25 08:34:13,702 [INFO] Done. Inserted 154 rows.
+2026-06-01 08:13:44,668 [INFO] เริ่มทำงาน | PC: 2592P-ED363 | Factory: A
+2026-06-01 08:13:44,918 [INFO] [AD06] path: \\172.18.223.143\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-01 08:13:44,934 [WARNING] [AD07] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-06-01 08:13:44,949 [INFO] [AD08] path: \\172.18.223.151\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-01 08:13:44,981 [WARNING] [AD09] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-06-01 08:13:44,996 [INFO] [AD10] path: \\172.18.223.159\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-01 08:13:45,059 [INFO] [AD11] path: \\172.18.223.163\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-01 08:13:45,387 [WARNING] [AD12] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-06-01 08:14:57,528 [WARNING] [AD13] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-06-01 08:14:57,544 [INFO] [AD14] path: \\172.18.223.73\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-01 08:14:57,700 [INFO] [AD15] path: \\172.18.223.77\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-01 08:14:58,106 [INFO] [AD16] path: \\172.18.223.81\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-01 08:14:58,121 [INFO] [AD17] path: \\172.18.223.97\SS-300AG-2G\Auto
+2026-06-01 08:15:13,540 [INFO] [AD19] path: \\172.18.223.167\AD19\SS-5028N-C1-M1\Auto
+2026-06-01 08:15:13,540 [INFO] [AD20] path: \\172.18.223.171\SS-5028N-C1-M1\Auto
+2026-06-01 08:15:13,572 [INFO] [AD21] path: \\172.18.223.179\SS-5028N-C1-M1\Auto
+2026-06-01 08:15:13,587 [INFO] [AD22] path: \\172.18.223.175\SS-5028N-C1-M1\Auto
+2026-06-01 08:15:56,986 [WARNING] [AD05] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-06-01 08:15:57,079 [INFO] Insert สำเร็จ 131/131 แถว → ad_log3
+2026-06-01 08:15:57,079 [INFO] Done. Inserted 131 rows.
+2026-06-04 16:58:38,619 [INFO] เริ่มทำงาน | PC: 2592P-ED363 | Factory: A
+2026-06-04 16:58:38,901 [INFO] [AD06] path: \\172.18.223.143\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-04 16:58:39,369 [INFO] [AD06] รวม 0 แถวสะสม
+2026-06-04 16:58:39,400 [WARNING] [AD07] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-06-04 16:58:39,432 [INFO] [AD08] path: \\172.18.223.151\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-04 16:58:39,682 [INFO] [AD08] รวม 0 แถวสะสม
+2026-06-04 16:58:39,713 [WARNING] [AD09] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-06-04 16:58:39,713 [INFO] [AD10] path: \\172.18.223.159\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-04 16:58:40,869 [INFO] [AD10] รวม 0 แถวสะสม
+2026-06-04 16:58:40,885 [INFO] [AD11] path: \\172.18.223.163\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-04 16:58:42,509 [INFO] [AD11] รวม 0 แถวสะสม
+2026-06-04 16:58:42,525 [WARNING] [AD12] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-06-04 17:00:08,039 [WARNING] [AD13] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-06-04 17:00:08,055 [INFO] [AD14] path: \\172.18.223.73\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-04 17:00:08,914 [INFO] [AD14] รวม 0 แถวสะสม
+2026-06-04 17:00:08,914 [INFO] [AD15] path: \\172.18.223.77\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-04 17:00:10,258 [INFO] [AD15] รวม 0 แถวสะสม
+2026-06-04 17:00:10,258 [INFO] [AD16] path: \\172.18.223.81\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-04 17:00:10,929 [INFO] [AD16] รวม 0 แถวสะสม
+2026-06-04 17:00:10,929 [INFO] [AD17] path: \\172.18.223.97\SS-300AG-2G\Auto
+2026-06-04 17:00:30,472 [INFO] [AD17] รวม 1206 แถวสะสม
+2026-06-04 17:00:30,503 [INFO] [AD19] path: \\172.18.223.167\AD19\SS-5028N-C1-M1\Auto
+2026-06-04 17:00:32,549 [INFO] [AD19] รวม 1206 แถวสะสม
+2026-06-04 17:00:32,549 [INFO] [AD20] path: \\172.18.223.171\SS-5028N-C1-M1\Auto
+2026-06-04 17:00:37,345 [INFO] [AD20] รวม 1206 แถวสะสม
+2026-06-04 17:00:37,361 [INFO] [AD21] path: \\172.18.223.179\SS-5028N-C1-M1\Auto
+2026-06-04 17:00:40,672 [INFO] [AD21] รวม 1206 แถวสะสม
+2026-06-04 17:00:40,672 [INFO] [AD22] path: \\172.18.223.175\SS-5028N-C1-M1\Auto
+2026-06-04 17:00:49,250 [INFO] [AD22] รวม 1206 แถวสะสม
+2026-06-04 17:01:36,883 [WARNING] [AD05] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-06-04 17:01:37,382 [INFO] Insert สำเร็จ 1206/1206 แถว → ad_log3
+2026-06-04 17:01:37,382 [INFO] เสร็จสิ้น
+2026-06-05 08:58:16,861 [INFO] เริ่มทำงาน | PC: 2592P-ED363 | Factory: A
+2026-06-05 08:58:17,189 [INFO] [AD06] path: \\172.18.223.143\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-05 08:58:17,626 [INFO] [AD06] รวม 0 แถวสะสม
+2026-06-05 08:58:17,657 [WARNING] [AD07] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-06-05 08:58:17,673 [INFO] [AD08] path: \\172.18.223.151\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-05 08:58:17,907 [INFO] [AD08] รวม 0 แถวสะสม
+2026-06-05 08:58:17,923 [WARNING] [AD09] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-06-05 08:58:17,938 [INFO] [AD10] path: \\172.18.223.159\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-05 08:58:18,969 [INFO] [AD10] รวม 0 แถวสะสม
+2026-06-05 08:58:18,969 [INFO] [AD11] path: \\172.18.223.163\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-05 08:58:20,001 [INFO] [AD11] รวม 0 แถวสะสม
+2026-06-05 08:58:20,032 [WARNING] [AD12] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-06-05 08:59:44,492 [WARNING] [AD13] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-06-05 08:59:44,507 [INFO] [AD14] path: \\172.18.223.73\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-05 08:59:46,257 [INFO] [AD14] รวม 0 แถวสะสม
+2026-06-05 08:59:46,647 [INFO] [AD15] path: \\172.18.223.77\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-05 08:59:49,537 [INFO] [AD15] รวม 0 แถวสะสม
+2026-06-05 08:59:49,584 [INFO] [AD16] path: \\172.18.223.81\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-05 08:59:51,974 [INFO] [AD16] รวม 0 แถวสะสม
+2026-06-05 08:59:51,990 [INFO] [AD17] path: \\172.18.223.97\SS-300AG-2G\Auto
+2026-06-05 09:00:10,580 [INFO] [AD17] รวม 1244 แถวสะสม
+2026-06-05 09:00:12,876 [INFO] [AD19] path: \\172.18.223.167\AD19\SS-5028N-C1-M1\Auto
+2026-06-05 09:00:14,344 [INFO] [AD19] รวม 1244 แถวสะสม
+2026-06-05 09:00:14,360 [INFO] [AD20] path: \\172.18.223.171\SS-5028N-C1-M1\Auto
+2026-06-05 09:00:17,235 [INFO] [AD20] รวม 1244 แถวสะสม
+2026-06-05 09:00:17,250 [INFO] [AD21] path: \\172.18.223.179\SS-5028N-C1-M1\Auto
+2026-06-05 09:00:20,453 [INFO] [AD21] รวม 1244 แถวสะสม
+2026-06-05 09:00:20,453 [INFO] [AD22] path: \\172.18.223.175\SS-5028N-C1-M1\Auto
+2026-06-05 09:00:21,952 [INFO] [AD22] รวม 1244 แถวสะสม
+2026-06-05 09:01:40,920 [WARNING] [AD05] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-06-05 09:01:41,186 [INFO] Insert สำเร็จ 1244/1244 แถว → ad_log3
+2026-06-05 09:01:41,186 [INFO] เสร็จสิ้น
+2026-06-09 13:26:07,025 [INFO] เริ่มทำงาน | PC: 2592P-ED363 | Factory: A
+2026-06-09 13:26:07,290 [INFO] [AD06] path: \\172.18.223.143\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-09 13:26:07,322 [WARNING] [AD07] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-06-09 13:26:07,337 [INFO] [AD08] path: \\172.18.223.151\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-09 13:26:07,369 [WARNING] [AD09] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-06-09 13:26:07,369 [INFO] [AD10] path: \\172.18.223.159\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-09 13:26:07,369 [INFO] [AD11] path: \\172.18.223.163\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-09 13:26:07,837 [WARNING] [AD12] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-06-09 13:26:32,488 [WARNING] [AD13] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-06-09 13:26:32,503 [INFO] [AD14] path: \\172.18.223.73\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-09 13:26:32,706 [INFO] [AD15] path: \\172.18.223.77\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-09 13:26:34,331 [INFO] [AD16] path: \\172.18.223.81\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-09 13:26:34,659 [INFO] [AD17] path: \\172.18.223.97\SS-300AG-2G\Auto
+2026-06-09 13:27:18,243 [WARNING] [AD19] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-06-09 13:27:18,243 [INFO] [AD20] path: \\172.18.223.171\SS-5028N-C1-M1\Auto
+2026-06-09 13:27:18,258 [INFO] [AD21] path: \\172.18.223.179\SS-5028N-C1-M1\Auto
+2026-06-09 13:27:18,274 [INFO] [AD22] path: \\172.18.223.175\SS-5028N-C1-M1\Auto
+2026-06-09 13:28:01,750 [WARNING] [AD05] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-06-09 13:28:01,953 [INFO] Insert สำเร็จ 117/117 แถว → ad_log3
+2026-06-09 13:28:01,953 [INFO] Done. Inserted 117 rows.
+2026-06-09 16:05:52,965 [INFO] เริ่มทำงาน | PC: 2592P-ED363 | Factory: A
+2026-06-09 16:05:53,356 [INFO] [AD06] path: \\172.18.223.143\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-09 16:05:53,387 [WARNING] [AD07] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-06-09 16:05:53,403 [INFO] [AD08] path: \\172.18.223.151\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-09 16:05:53,434 [WARNING] [AD09] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-06-09 16:05:53,450 [INFO] [AD10] path: \\172.18.223.159\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-09 16:05:53,450 [INFO] [AD11] path: \\172.18.223.163\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-09 16:05:53,981 [WARNING] [AD12] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-06-09 16:06:37,395 [WARNING] [AD13] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-06-09 16:06:37,410 [INFO] [AD14] path: \\172.18.223.73\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-09 16:06:37,676 [INFO] [AD15] path: \\172.18.223.77\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-09 16:06:38,238 [INFO] [AD16] path: \\172.18.223.81\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-09 16:06:38,582 [INFO] [AD17] path: \\172.18.223.97\SS-300AG-2G\Auto
+2026-06-09 16:06:42,065 [INFO] [AD19] path: \\172.18.223.167\AD19\SS-5028N-C1-M1\Auto
+2026-06-09 16:06:42,065 [INFO] [AD20] path: \\172.18.223.171\SS-5028N-C1-M1\Auto
+2026-06-09 16:06:42,081 [INFO] [AD21] path: \\172.18.223.179\SS-5028N-C1-M1\Auto
+2026-06-09 16:06:42,112 [INFO] [AD22] path: \\172.18.223.175\SS-5028N-C1-M1\Auto
+2026-06-09 16:07:25,525 [WARNING] [AD05] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-06-09 16:07:25,572 [INFO] Insert สำเร็จ 125/125 แถว → ad_log3
+2026-06-09 16:07:25,572 [INFO] Done. Inserted 125 rows.
+2026-06-09 16:10:08,714 [INFO] เริ่มทำงาน | PC: 2592P-ED363 | Factory: A
+2026-06-09 16:10:08,808 [INFO] [AD06] path: \\172.18.223.143\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-09 16:10:08,839 [WARNING] [AD07] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-06-09 16:10:08,855 [INFO] [AD08] path: \\172.18.223.151\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-09 16:10:08,886 [WARNING] [AD09] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-06-09 16:10:08,886 [INFO] [AD10] path: \\172.18.223.159\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-09 16:10:08,886 [INFO] [AD11] path: \\172.18.223.163\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-09 16:10:09,402 [WARNING] [AD12] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-06-09 16:10:52,139 [WARNING] [AD13] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-06-09 16:10:52,155 [INFO] [AD14] path: \\172.18.223.73\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-09 16:10:52,394 [INFO] [AD15] path: \\172.18.223.77\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-09 16:10:52,933 [INFO] [AD16] path: \\172.18.223.81\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-09 16:10:53,356 [INFO] [AD17] path: \\172.18.223.97\SS-300AG-2G\Auto
+2026-06-09 16:10:55,923 [INFO] [AD19] path: \\172.18.223.167\AD19\SS-5028N-C1-M1\Auto
+2026-06-09 16:10:55,923 [INFO] [AD20] path: \\172.18.223.171\SS-5028N-C1-M1\Auto
+2026-06-09 16:10:55,939 [INFO] [AD21] path: \\172.18.223.179\SS-5028N-C1-M1\Auto
+2026-06-09 16:10:55,955 [INFO] [AD22] path: \\172.18.223.175\SS-5028N-C1-M1\Auto
+2026-06-09 16:11:38,320 [WARNING] [AD05] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-06-09 16:14:30,227 [INFO] Insert สำเร็จ 125/125 แถว → ad_log3
+2026-06-09 16:14:30,227 [INFO] Done. Inserted 125 rows.
+2026-06-09 16:18:38,510 [INFO] เริ่มทำงาน | PC: 2592P-ED363 | Factory: A
+2026-06-09 16:18:38,901 [INFO] [AD06] path: \\172.18.223.143\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-09 16:18:39,244 [WARNING] [AD07] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-06-09 16:18:39,244 [INFO] [AD08] path: \\172.18.223.151\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-09 16:18:39,369 [WARNING] [AD09] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-06-09 16:18:39,369 [INFO] [AD10] path: \\172.18.223.159\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-09 16:18:48,898 [INFO] [AD11] path: \\172.18.223.163\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-09 16:28:11,525 [WARNING] [AD12] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-06-09 16:32:45,851 [WARNING] [AD13] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-06-09 16:32:45,882 [INFO] [AD14] path: \\172.18.223.73\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-09 16:32:48,116 [INFO] [AD15] path: \\172.18.223.77\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-09 16:33:13,142 [INFO] [AD16] path: \\172.18.223.81\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-09 16:33:22,234 [INFO] [AD17] path: \\172.18.223.97\SS-300AG-2G\Auto
+2026-06-09 16:33:46,105 [INFO] [AD19] path: \\172.18.223.167\AD19\SS-5028N-C1-M1\Auto
+2026-06-09 16:33:46,465 [INFO] [AD20] path: \\172.18.223.171\SS-5028N-C1-M1\Auto
+2026-06-09 16:33:48,136 [INFO] [AD21] path: \\172.18.223.179\SS-5028N-C1-M1\Auto
+2026-06-09 16:33:48,402 [INFO] [AD22] path: \\172.18.223.175\SS-5028N-C1-M1\Auto
+2026-06-09 16:35:18,337 [WARNING] [AD05] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-06-09 16:36:23,168 [INFO] Insert สำเร็จ 4768/4768 แถว → ad_log3
+2026-06-09 16:36:23,168 [INFO] Done. Inserted 4768 rows.
+2026-06-09 16:44:26,778 [INFO] เริ่มทำงาน | PC: 2592P-ED363 | Factory: A
+2026-06-09 16:44:27,028 [INFO] [AD08] path: \\172.18.223.143\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-09 16:44:27,309 [WARNING] [AD08] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-06-09 16:44:27,325 [INFO] [AD08] path: \\172.18.223.151\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-09 16:44:27,418 [WARNING] [AD08] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-06-09 16:44:27,418 [INFO] [AD08] path: \\172.18.223.159\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-09 16:44:33,028 [INFO] [AD08] path: \\172.18.223.163\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-09 16:44:48,681 [WARNING] [AD08] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-06-09 16:45:32,108 [WARNING] [AD08] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-06-09 16:45:32,124 [INFO] [AD08] path: \\172.18.223.73\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-09 16:45:34,030 [INFO] [AD08] path: \\172.18.223.77\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-09 16:45:50,401 [INFO] [AD08] path: \\172.18.223.81\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-09 16:45:56,902 [INFO] [AD08] path: \\172.18.223.97\SS-300AG-2G\Auto
+2026-06-09 16:46:10,037 [INFO] [AD08] path: \\172.18.223.167\AD19\SS-5028N-C1-M1\Auto
+2026-06-09 16:46:10,177 [INFO] [AD08] path: \\172.18.223.171\SS-5028N-C1-M1\Auto
+2026-06-09 16:46:11,021 [INFO] [AD08] path: \\172.18.223.179\SS-5028N-C1-M1\Auto
+2026-06-09 16:46:11,255 [INFO] [AD08] path: \\172.18.223.175\SS-5028N-C1-M1\Auto
+2026-06-09 16:47:22,150 [INFO] เริ่มทำงาน | PC: 2592P-ED363 | Factory: A
+2026-06-09 16:47:22,259 [INFO] [AD06] path: \\172.18.223.143\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-09 16:47:22,556 [WARNING] [AD07] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-06-09 16:47:22,571 [INFO] [AD08] path: \\172.18.223.151\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-09 16:47:22,665 [WARNING] [AD09] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-06-09 16:47:22,665 [INFO] [AD10] path: \\172.18.223.159\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-09 16:47:28,254 [INFO] [AD11] path: \\172.18.223.163\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-09 16:47:44,567 [INFO] เริ่มทำงาน | PC: 2592P-ED363 | Factory: A
+2026-06-09 16:47:44,672 [INFO] [AD06] path: \\172.18.223.143\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-09 16:47:44,955 [WARNING] [AD07] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-06-09 16:47:44,971 [INFO] [AD08] path: \\172.18.223.151\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-09 16:47:45,064 [WARNING] [AD09] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-06-09 16:47:45,064 [INFO] [AD10] path: \\172.18.223.159\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-09 16:47:50,738 [INFO] [AD11] path: \\172.18.223.163\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-09 16:48:05,500 [WARNING] [AD12] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-06-09 16:48:48,944 [WARNING] [AD13] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-06-09 16:48:48,960 [INFO] [AD14] path: \\172.18.223.73\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-09 16:48:50,881 [INFO] [AD15] path: \\172.18.223.77\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-09 16:49:07,128 [INFO] [AD16] path: \\172.18.223.81\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-09 16:49:13,595 [INFO] [AD17] path: \\172.18.223.97\SS-300AG-2G\Auto
+2026-06-09 16:49:26,732 [INFO] [AD19] path: \\172.18.223.167\AD19\SS-5028N-C1-M1\Auto
+2026-06-09 16:49:26,873 [INFO] [AD20] path: \\172.18.223.171\SS-5028N-C1-M1\Auto
+2026-06-09 16:49:27,732 [INFO] [AD21] path: \\172.18.223.179\SS-5028N-C1-M1\Auto
+2026-06-09 16:49:27,966 [INFO] [AD22] path: \\172.18.223.175\SS-5028N-C1-M1\Auto
+2026-06-09 16:50:12,706 [WARNING] [AD05] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-06-09 16:50:13,440 [INFO] Insert สำเร็จ 4769/4769 แถว → ad_log3
+2026-06-09 16:50:13,440 [INFO] Done. Inserted 4769 rows.
+2026-06-09 16:56:49,216 [INFO] เริ่มทำงาน | PC: 2592P-ED363 | Factory: A
+2026-06-09 16:56:49,606 [INFO] [AD06] path: \\172.18.223.143\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-09 16:56:49,903 [WARNING] [AD07] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-06-09 16:56:49,903 [INFO] [AD08] path: \\172.18.223.151\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-09 16:56:49,997 [WARNING] [AD09] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-06-09 16:56:49,997 [INFO] [AD10] path: \\172.18.223.159\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-09 16:56:55,558 [INFO] [AD11] path: \\172.18.223.163\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-09 16:57:07,059 [WARNING] [AD12] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-06-09 16:58:00,706 [WARNING] [AD13] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-06-09 17:01:55,055 [INFO] [AD14] path: \\172.18.223.73\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-09 17:01:56,945 [INFO] [AD15] path: \\172.18.223.77\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-09 17:02:12,988 [INFO] [AD16] path: \\172.18.223.81\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-09 17:02:19,393 [INFO] [AD17] path: \\172.18.223.97\SS-300AG-2G\Auto
+2026-06-09 17:02:32,453 [INFO] [AD19] path: \\172.18.223.167\AD19\SS-5028N-C1-M1\Auto
+2026-06-09 17:02:32,593 [INFO] [AD20] path: \\172.18.223.171\SS-5028N-C1-M1\Auto
+2026-06-09 17:02:33,437 [INFO] [AD21] path: \\172.18.223.179\SS-5028N-C1-M1\Auto
+2026-06-09 17:02:33,671 [INFO] [AD22] path: \\172.18.223.175\SS-5028N-C1-M1\Auto
+2026-06-09 17:03:28,643 [WARNING] [AD05] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-06-09 17:03:29,455 [INFO] Insert สำเร็จ 4769/4769 แถว → ad_log3
+2026-06-09 17:03:29,455 [INFO] Done. Inserted 4769 rows.
+2026-06-10 08:05:58,835 [INFO] เริ่มทำงาน | PC: 2592P-ED363 | Factory: A
+2026-06-10 08:06:01,350 [INFO] [AD06] path: \\172.18.223.143\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-10 08:06:01,662 [WARNING] [AD07] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-06-10 08:06:01,662 [INFO] [AD08] path: \\172.18.223.151\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-10 08:06:01,772 [WARNING] [AD09] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-06-10 08:06:01,772 [INFO] [AD10] path: \\172.18.223.159\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-10 08:06:07,411 [INFO] [AD11] path: \\172.18.223.163\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-10 08:06:20,221 [WARNING] [AD12] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-06-10 08:07:13,880 [WARNING] [AD13] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-06-10 08:07:13,896 [INFO] [AD14] path: \\172.18.223.73\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-10 08:07:15,801 [INFO] [AD15] path: \\172.18.223.77\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-10 08:07:32,219 [INFO] [AD16] path: \\172.18.223.81\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-10 08:07:44,077 [INFO] [AD17] path: \\172.18.223.97\SS-300AG-2G\Auto
+2026-06-10 08:07:57,574 [INFO] [AD19] path: \\172.18.223.167\AD19\SS-5028N-C1-M1\Auto
+2026-06-10 08:07:57,730 [INFO] [AD20] path: \\172.18.223.171\SS-5028N-C1-M1\Auto
+2026-06-10 08:07:58,605 [INFO] [AD21] path: \\172.18.223.179\SS-5028N-C1-M1\Auto
+2026-06-10 08:07:58,839 [INFO] [AD22] path: \\172.18.223.175\SS-5028N-C1-M1\Auto
+2026-06-10 08:08:53,873 [WARNING] [AD05] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-06-10 08:08:57,419 [INFO] Insert สำเร็จ 4814/4814 แถว → ad_log3
+2026-06-10 08:08:57,419 [INFO] Done. Inserted 4814 rows.
+2026-06-24 10:59:35,268 [INFO] เริ่มทำงาน | PC: 2592P-ED363 | Factory: A
+2026-06-24 10:59:35,362 [INFO] [AD06] path: \\172.18.223.143\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-24 10:59:35,737 [INFO] [AD06] รวม 0 แถวสะสม
+2026-06-24 10:59:35,768 [WARNING] [AD07] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-06-24 10:59:35,768 [INFO] [AD08] path: \\172.18.223.151\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-24 10:59:35,955 [INFO] [AD08] รวม 0 แถวสะสม
+2026-06-24 10:59:35,987 [WARNING] [AD09] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-06-24 10:59:36,080 [INFO] [AD10] path: \\172.18.223.159\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-24 10:59:38,330 [INFO] [AD10] รวม 0 แถวสะสม
+2026-06-24 10:59:38,346 [INFO] [AD11] path: \\172.18.223.163\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-24 10:59:39,361 [INFO] [AD11] รวม 0 แถวสะสม
+2026-06-24 10:59:39,377 [INFO] [AD12] path: \\172.18.223.199\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-24 10:59:40,064 [INFO] [AD12] รวม 0 แถวสะสม
+2026-06-24 11:00:12,370 [INFO] เริ่มทำงาน | PC: 2592P-ED363 | Factory: A
+2026-06-24 11:00:12,480 [INFO] [AD06] path: \\172.18.223.143\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-24 11:00:12,855 [WARNING] [AD07] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-06-24 11:00:12,855 [INFO] [AD08] path: \\172.18.223.151\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-24 11:00:12,948 [WARNING] [AD09] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-06-24 11:00:12,948 [INFO] [AD10] path: \\172.18.223.159\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-24 11:00:20,572 [INFO] [AD11] path: \\172.18.223.163\SS-3028G-M03a_Dat\_Log\Auto
+2026-06-24 11:00:34,960 [INFO] [AD12] path: \\172.18.223.199\SS-3028G-M03a_Dat\_Log\Auto
+2026-07-23 09:30:34,557 [INFO] เริ่มทำงาน | PC: 2592P-ED363 | Factory: A
+2026-07-23 09:30:36,431 [INFO] [AD06] path: \\172.18.223.143\SS-3028G-M03a_Dat\_Log\Auto
+2026-07-23 09:31:26,545 [WARNING] [AD07] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-07-23 09:32:11,004 [WARNING] [AD08] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-07-23 09:32:11,004 [INFO] [AD09] path: \\172.18.223.155\SS-3028G-M03a_Dat\_Log\Auto
+2026-07-23 09:32:21,408 [INFO] [AD10] path: \\172.18.223.159\SS-3028G-M03a_Dat\_Log\Auto
+2026-07-23 09:32:27,844 [INFO] [AD11] path: \\172.18.223.163\SS-3028G-M03a_Dat\_Log\Auto
+2026-07-23 09:32:44,997 [INFO] [AD12] path: \\172.18.223.199\SS-3028G-M03a_Dat\_Log\Auto
+2026-07-23 09:33:39,765 [WARNING] [AD13] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-07-23 09:33:39,765 [INFO] [AD14] path: \\172.18.223.73\SS-3028G-M03a_Dat\_Log\Auto
+2026-07-23 09:33:42,155 [INFO] [AD15] path: \\172.18.223.77\SS-3028G-M03a_Dat\_Log\Auto
+2026-07-23 09:34:06,852 [INFO] [AD16] path: \\172.18.223.81\SS-3028G-M03a_Dat\_Log\Auto
+2026-07-23 09:34:23,067 [WARNING] [AD17] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-07-23 09:34:26,598 [INFO] [AD19] path: \\172.18.223.167\AD19\SS-5028N-C1-M1\Auto
+2026-07-23 09:34:27,301 [INFO] [AD20] path: \\172.18.223.171\SS-5028N-C1-M1\Auto
+2026-07-23 09:34:27,410 [INFO] [AD21] path: \\172.18.223.179\SS-5028N-C1-M1\Auto
+2026-07-23 09:34:27,519 [INFO] [AD22] path: \\172.18.223.175\SS-5028N-C1-M1\Auto
+2026-07-23 09:35:22,180 [WARNING] [AD05] ไม่พบ path ที่เข้าถึงได้ — ข้ามเครื่องนี้
+2026-07-23 09:35:24,398 [INFO] Insert สำเร็จ 4659/4659 แถว → ad_log3
+2026-07-23 09:35:24,398 [INFO] Done. Inserted 4659 rows.
