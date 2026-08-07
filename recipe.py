@@ -1,8 +1,13 @@
 import os
 import mysql.connector
 import shutil
+# เครื่องที่ไม่ต้องประมวลผล
+# AD05: เชื่อมต่อ path ไม่ได้ 22 ครั้งจาก 12 รอบที่รัน (7 เม.ย.–23 ก.ค. 2026) ตัดออกเมื่อ 2026-08-08
+EXCLUDE_MACHINES = {"AD05"}
+
 # กำหนดเครื่องจักร
-machines = [f"AD{str(i).zfill(2)}" for i in range(5, 31)]
+machines = [m for m in (f"AD{str(i).zfill(2)}" for i in range(5, 31))
+            if m not in EXCLUDE_MACHINES]
 directory = r"D:\masterlist"
 
 os.makedirs(directory, exist_ok=True)

@@ -5,6 +5,10 @@ import pandas as pd
 import socket
 from sqlalchemy import create_engine, text
 
+# เครื่องที่ไม่ต้องประมวลผล — ใส่ชื่อเครื่องตามที่อยู่ในคอลัมน์ Machine ของตาราง ad_ip
+# AD05: เชื่อมต่อ path ไม่ได้ 22 ครั้งจาก 12 รอบที่รัน (7 เม.ย.–23 ก.ค. 2026) ตัดออกเมื่อ 2026-08-08
+EXCLUDE_MACHINES = {"AD05"}
+
 name_pc = socket.gethostname()
 if name_pc == "2592P-ED363":
     factory = 'A'
@@ -17,6 +21,9 @@ with engine.connect() as con:
 
 for item in ad_ip.itertuples():
     mc = item.Machine
+    if mc in EXCLUDE_MACHINES:
+        print(mc, ": อยู่ใน EXCLUDE_MACHINES — ข้าม")
+        continue
     try:
         ip = rf"\\{item.IP}\{item.Version}\Auto"
         if os.path.isdir(ip) == False:

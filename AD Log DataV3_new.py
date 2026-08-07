@@ -22,6 +22,10 @@ DAT_NAME_MAX_LEN    = 100   # จำกัดความยาว dat_name ป�
 CAS_FIELD_MAX_LEN   = 255   # จำกัดความยาว alarm/Status ป้องกัน MySQL 1406 Data too long
                             # ตรวจค่าจริงด้วย: SHOW CREATE TABLE inadatabase.ad_log3;
 
+# เครื่องที่ไม่ต้องประมวลผล — ใส่ชื่อเครื่องตามที่อยู่ในคอลัมน์ Machine ของตาราง ad_ip
+# AD05: เชื่อมต่อ path ไม่ได้ 22 ครั้งจาก 12 รอบที่รัน (7 เม.ย.–23 ก.ค. 2026) ตัดออกเมื่อ 2026-08-08
+EXCLUDE_MACHINES = {"AD05"}
+
 # ชื่อไฟล์ที่ต้องการประมวลผล
 TARGET_FILE_PATTERNS = ["_2G.log", "_2G.Log", "_2G.txt", "WorkStatus.log", "WorkStatus.Log", "WorkStatus.txt"]
 
@@ -250,6 +254,9 @@ def main():
     all_rows = []
     for item in ad_ip.itertuples():
         mc = item.Machine
+        if mc in EXCLUDE_MACHINES:
+            log.info(f"[{mc}] อยู่ใน EXCLUDE_MACHINES — ข้ามเครื่องนี้")
+            continue
         candidates = [
             rf"\\{item.IP}\{item.Version}\_Log\Auto",
             rf"\\{item.IP}\{item.Version}\Auto",
